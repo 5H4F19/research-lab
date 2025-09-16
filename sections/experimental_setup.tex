@@ -1,0 +1,55 @@
+% This is now Chapter 4
+This section describes the environment, tools, and procedures used to conduct the comparative study between the multimodal teacher evaluation system and traditional student feedback.
+
+\subsection{Classroom Environment}
+Experiments were conducted in real university classrooms across three academic departments (STEM, Humanities, Social Sciences). Each classroom was equipped with standard teaching facilities and additional sensors for multimodal data collection.
+
+\subsection{Hardware and Software}
+\begin{itemize}
+    \item \textbf{Audio:} Directional microphones (Shure MX391) placed at the front and rear of the classroom.
+    \item \textbf{Video:} Two wide-angle HD cameras (Logitech C920) positioned to capture both teacher and student interactions.
+    \item \textbf{Computing:} A dedicated workstation (Intel i7, 32GB RAM, NVIDIA RTX 3060) for real-time data processing and storage.
+    \item \textbf{Software:} 
+        \begin{itemize}
+            \item PRAAT for audio feature extraction
+            \item OpenPose/HRNet for pose estimation
+            \item Python (NumPy, pandas, scikit-learn) for data analysis
+            \item Custom NLP pipeline for discourse analysis
+        \end{itemize}
+\end{itemize}
+
+\begin{table}[H]
+    \centering
+    \normalsize
+    \caption{Summary of Collected Dataset}
+    \label{tab:dataset_summary}
+    \begin{tabular}{lcc}
+        \toprule
+        \textbf{Data Type} & \textbf{Sessions} & \textbf{Total Size} \\
+        \midrule
+        Audio & 90 & 18 hours (12 GB) \\
+        Video & 90 & 18 hours (90 GB) \\
+        Transcripts & 90 & 1.2M words (8 MB) \\
+        Student Feedback & 90 & 1,350 responses (0.5 MB) \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+\subsection{Data Collection Procedure}
+\begin{enumerate}
+    \item \textbf{Session Preparation:} Instructors and students were briefed and consent was obtained. Equipment was set up before each session.
+    \item \textbf{Recording:} Each teaching session (50 minutes) was recorded for both audio and video. Student feedback was collected immediately after each session via online forms.
+    \item \textbf{Synchronization:} All data streams were time-synchronized using a central clock to ensure accurate multimodal analysis.
+    \item \textbf{Data Storage:} Raw data was securely stored on encrypted local drives. Only anonymized data was used for analysis.
+\end{enumerate}
+
+\subsection{Dataset Overview}
+A total of 90 teaching sessions were recorded (30 instructors × 3 sessions each). For each session, the following data was collected:
+\begin{itemize}
+    \item Audio recordings (WAV, 44.1kHz)
+    \item Video recordings (MP4, 1080p)
+    \item Automatic transcripts (TXT)
+    \item Student feedback responses (CSV)
+\end{itemize}
+

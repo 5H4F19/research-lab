@@ -1,0 +1,277 @@
+% Pearson-style Book Template with C059 Font
+% Compile with: xelatex book.tex (recommended) or lualatex book.tex
+% For pdflatex, uncomment the alternative font setup below
+
+\documentclass[11pt,twoside,openright]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Pearson-style page geometry
+\usepackage[
+    paperwidth=7.5in,
+    paperheight=9.25in,
+    margin=0.75in,
+    top=1in,
+    bottom=1in,
+    inner=1in,
+    outer=0.75in,
+    headsep=0.25in,
+    headheight=24pt,
+    footskip=0.3in
+]{geometry}
+
+% Pearson-style typography with C059 Roman for body text
+\usepackage{iftex}
+\ifXeTeX
+    \usepackage{fontspec}
+    \setmainfont{C059 Roman}[
+        Ligatures=TeX,
+        UprightFont={C059 Roman},
+        BoldFont={C059 Bold},
+        ItalicFont={C059 Italic},
+        BoldItalicFont={C059 Bold Italic}
+    ]
+    \setsansfont[Scale=0.9]{Helvetica}
+    \setmonofont{Courier New}
+\else
+    \ifLuaTeX
+        \usepackage{fontspec}
+        \setmainfont{C059 Roman}[
+            Ligatures=TeX,
+            UprightFont={C059 Roman},
+            BoldFont={C059 Bold},
+            ItalicFont={C059 Italic},
+            BoldItalicFont={C059 Bold Italic}
+        ]
+        \setsansfont[Scale=0.9]{Helvetica}
+        \setmonofont{Courier New}
+    \else
+        % Fallback for pdfLaTeX - try to use C059 package or similar
+        \usepackage[T1]{fontenc}
+        \usepackage{c059}           % C059 font package for pdfLaTeX
+        \usepackage[scaled=0.9]{helvet}
+        \usepackage{courier}
+    \fi
+\fi
+\usepackage{microtype}       % Better typography
+
+% Essential packages
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows, positioning}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{enumitem}
+\usepackage{framed}
+\usepackage{tcolorbox}
+
+% Pearson color scheme
+\definecolor{pearsonblue}{RGB}{0,91,156}
+\definecolor{pearsongray}{RGB}{88,89,91}
+\definecolor{pearsonlightblue}{RGB}{230,242,250}
+
+% Pearson-style chapter formatting
+\titleformat{\chapter}[display]
+{\normalfont\sffamily\bfseries\color{pearsonblue}}
+{\huge\chaptertitlename\ \thechapter}{15pt}{\Huge\raggedright}
+[\vspace{10pt}\color{pearsonblue}\rule{\textwidth}{2pt}]
+
+% Pearson-style section formatting (matching reference images)
+\titleformat{\section}
+{\normalfont\Large\sffamily\bfseries\color{pearsonblue}}
+{\thesection}{1em}{\MakeUppercase}
+[\vspace{2pt}\color{pearsonblue}\rule{\textwidth}{0.5pt}]
+
+% Subsection formatting
+\titleformat{\subsection}
+{\normalfont\large\sffamily\bfseries\color{pearsongray}}
+{\thesubsection}{1em}{}
+
+% Subsubsection formatting
+\titleformat{\subsubsection}
+{\normalfont\normalsize\sffamily\bfseries}
+{\thesubsubsection}{1em}{}
+
+% Set up Pearson-style headers and footers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small\sffamily\color{pearsongray}\thepage\quad\leftmark}
+\fancyhead[RO]{\small\sffamily\color{pearsongray}\rightmark\quad\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{pearsonblue}\leaders\hrule height \headrulewidth\hfill}}
+
+% Customize chapter and section marks
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\chaptername\ \thechapter.\ #1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\MakeUppercase{\thesection.\ #1}}}
+
+% Pearson-style table of contents
+\usepackage{tocloft}
+\renewcommand{\cfttoctitlefont}{\Huge\sffamily\bfseries\color{pearsonblue}}
+\renewcommand{\cftchapfont}{\sffamily\bfseries\color{pearsonblue}}
+\renewcommand{\cftsecfont}{\sffamily}
+\renewcommand{\cftsubsecfont}{\sffamily\small}
+
+% Enhanced caption styling
+\captionsetup{
+    font={small,sf},
+    labelfont={bf,color=pearsonblue},
+    textfont={color=pearsongray},
+    format=hang,
+    indention=10pt
+}
+
+% Pearson-style figure and table environments
+\tcbset{
+    pearsonbox/.style={
+        colback=pearsonlightblue,
+        colframe=pearsonblue,
+        boxrule=1pt,
+        arc=3pt,
+        fonttitle=\sffamily\bfseries,
+        coltitle=white,
+        colbacktitle=pearsonblue
+    }
+}
+
+\title{\textcolor{pearsonblue}{\textbf{\textsf{A Multimodal Evaluation Model for \\ Improving Pedagogical Outcomes}}}}
+\author{
+    \large\textsf{Shafiqul Islam} \\
+    \normalsize\textsf{Begum Rokeya University, Rangpur}
+}
+\date{}
+
+\begin{document}
+
+\frontmatter
+\thispagestyle{empty}
+
+% Pearson-style title page
+\begin{center}
+\vspace*{2cm}
+
+{\Huge\sffamily\bfseries\color{pearsonblue}A Multimodal Evaluation Model}
+
+\vspace{0.5cm}
+
+{\Huge\sffamily\bfseries\color{pearsonblue}for Improving Pedagogical Outcomes}
+
+\vspace{3cm}
+
+{\Large\sffamily\bfseries Shafiqul Islam}
+
+\vspace{0.5cm}
+
+{\normalsize\sffamily Begum Rokeya University, Rangpur}
+
+\vfill
+
+{\large\sffamily\color{pearsongray}\textbf{Academic Textbook Series}}
+
+\vspace{1cm}
+
+\end{center}
+
+\newpage
+
+% Copyright page (Pearson style)
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{flushleft}
+\small\sffamily
+\textbf{A Multimodal Evaluation Model for Improving Pedagogical Outcomes}
+
+Copyright \textcopyright\ 2025 by Shafiqul Islam
+
+All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the author.
+
+\vspace{0.5cm}
+
+\textbf{ISBN:} 978-0-XXX-XXXXX-X (Print) \\
+\textbf{ISBN:} 978-0-XXX-XXXXX-X (Digital)
+
+\vspace{0.5cm}
+
+First Edition: 2025
+
+\vspace{0.5cm}
+
+Printed in the United States of America
+\end{flushleft}
+
+\newpage
+
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+Teacher performance evaluation is a cornerstone of educational quality assurance. Traditionally, student feedback has been the primary tool for assessing teaching effectiveness, but it is often subjective and limited in scope. This book presents a comprehensive study of a novel multimodal system that objectively analyzes classroom interactions, comparing it with conventional student feedback methods.
+
+\vspace{0.5cm}
+
+\textbf{Purpose and Scope}
+
+This book aims to bridge the gap between traditional educational assessment methods and modern technological approaches. The study determines the reliability, validity, and practical impact of both conventional and innovative evaluation approaches in educational settings.
+
+\vspace{0.5cm}
+
+\textbf{Intended Audience}
+
+This book is designed for:
+\begin{itemize}[leftmargin=1em]
+    \item Researchers in educational technology and assessment
+    \item Educational administrators and policy makers
+    \item Graduate students in education and computer science
+    \item Practitioners interested in pedagogical evaluation methods
+\end{itemize}
+
+\vspace{0.5cm}
+
+\begin{tcolorbox}[pearsonbox, title=Key Topics Covered]
+\textbf{Keywords:} Teacher evaluation, multimodal system, student feedback, educational assessment, comparative study, pedagogical outcomes, classroom interaction analysis
+\end{tcolorbox}
+
+\vspace{1cm}
+
+\textit{Shafiqul Islam} \\
+Begum Rokeya University, Rangpur \\
+2025
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{Introduction}
+\input{sections/introduction.tex}
+
+\chapter{Related Work}
+\input{sections/related_work.tex}
+
+\chapter{Methodology}
+\input{sections/methodology.tex}
+
+\chapter{Experimental Setup}
+\input{sections/experimental_setup.tex}
+
+\chapter{System Architecture}
+\input{sections/system_architecture.tex}
+
+\chapter{Results and Discussion}
+Present the findings of the comparative study here. Include quantitative and qualitative results, statistical analyses, and a discussion interpreting the significance of the results in the context of existing literature.
+
+\chapter{Conclusion and Future Work}
+Summarize the main contributions and findings of the study. Discuss limitations and propose directions for future research.
+
+\backmatter
+
+\chapter*{Acknowledgments}
+(Optional) Acknowledge any funding sources, institutional support, or individuals who contributed to the research but are not listed as authors.
+
+\bibliographystyle{plain}
+\bibliography{research}
+
+\end{document}

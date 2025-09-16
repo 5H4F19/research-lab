@@ -1,0 +1,334 @@
+@article{Heffernan2022,
+  author = {Troy Heffernan},
+  title = {Sexism, racism, prejudice, and bias: a literature review and synthesis of research surrounding student evaluations of courses and teaching},
+  journal = {Assessment \& Evaluation in Higher Education},
+  volume = {47},
+  number = {1},
+  pages = {144--154},
+  year = {2022},
+  publisher = {SRHE Website},
+  doi = {10.1080/02602938.2021.1888075},
+  url = {https://doi.org/10.1080/02602938.2021.1888075},
+  eprint = {https://doi.org/10.1080/02602938.2021.1888075}
+}
+
+@article{Steinberg2021,
+  author = {Matthew P. Steinberg and Lauren Sartain},
+  title = {What Explains the Race Gap in Teacher Performance Ratings? Evidence From Chicago Public Schools},
+  journal = {Educational Evaluation and Policy Analysis},
+  volume = {43},
+  number = {1},
+  pages = {60-82},
+  year = {2021},
+  doi = {10.3102/0162373720970204},
+  url = {https://doi.org/10.3102/0162373720970204},
+  eprint = {https://doi.org/10.3102/0162373720970204},
+  abstract = {Racial gaps in teacher performance ratings have emerged nationwide across newly implemented educator evaluation systems. Using Chicago Public Schools data, we quantify the magnitude of the race gap in teachers’ classroom observation scores, examine its determinants, and describe the potential implications for teacher diversity. Between-school differences explain most of the race gap and within-school classroom-level differences—poverty, incoming achievement, and prior-year misconduct of a teacher’s students—explain the remainder of the race gap. Teachers’ value-added scores explain none of the race gap. Leveraging within-teacher variation in the teacher–evaluator race match, we find that racial mismatch does not influence observation scores. Adjusting observation scores for classroom and school context will generate more equitable ratings of teacher performance and mitigate potential adverse consequences for teacher diversity.}
+}
+
+@article{carvalho2022biases,
+  title={Several Biases in Evaluation Process of Professors by Undergraduate Students},
+  author={Carvalho, Patrícia Nasser and Carvalho, Marcus Vinicius H.},
+  journal={International Journal for Innovation Education and Research},
+  volume={10},
+  number={7},
+  pages={433--441},
+  year={2022},
+  doi={10.31686/ijier.vol10.iss7.3838},
+  url={https://doi.org/10.31686/ijier.vol10.iss7.3838}
+}
+
+@INPROCEEDINGS{8615171,
+  author={Chitre, Mandar and Srinivasan, Dipti},
+  booktitle={2018 IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)}, 
+  title={Evaluating teaching effectiveness using quantitative student feedback}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={155-160},
+  keywords={Noise measurement;Tutorials;Australia;Conferences;Size measurement;Standards;student feedback;teaching effectiveness;performance evaluation},
+  doi={10.1109/TALE.2018.8615171}}
+
+@article{Ginsburg2022NecessaryBI,
+  title={Necessary But Insufficient and Possibly Counterproductive: The Complex Problem of Teaching Evaluations.},
+  author={Shiphra Ginsburg and Lynfa Stroud},
+  journal={Academic medicine : journal of the Association of American Medical Colleges},
+  year={2022},
+  url={https://api.semanticscholar.org/CorpusID:254961390}
+}
+
+@article{Ajmal2024,
+author = {Ajmal, Mehwish and Basit, Iffat and Sadaf, Saira},
+year = {2024},
+month = {05},
+pages = {},
+title = {Evaluating the Role of Students’ Feedback in Enhancing Teaching Effectiveness},
+volume = {12},
+journal = {Pakistan Journal of Humanities and Social Sciences},
+doi = {10.52131/pjhss.2024.v12i2.2255}
+}
+
+@article{Husain2016,
+author = {Husain, Musharraf and Khan, Sabina},
+year = {2016},
+month = {07},
+pages = {178},
+title = {Students' feedback: An effective tool in teachers' evaluation system},
+volume = {6},
+journal = {International Journal of Applied and Basic Medical Research},
+doi = {10.4103/2229-516X.186969}
+}
+
+@article{Wang2022,
+author = {Wang, Zhihong and Xu, Tao and Wang, Lixia},
+year = {2022},
+month = {07},
+pages = {},
+title = {Teaching Evaluation Method Based on Fuzzy Support Vector Machine Algorithm},
+volume = {2022},
+journal = {Mobile Information Systems},
+doi = {10.1155/2022/7354972}
+}
+
+@article{Yang2022,
+author = {Yang, Aijun and Yu, Shuyan},
+year = {2022},
+month = {02},
+pages = {1-10},
+title = {Research on Teaching Evaluation System Based on Machine Learning},
+volume = {2022},
+journal = {Mobile Information Systems},
+doi = {10.1155/2022/9255064}
+}
+
+@InProceedings{10.1007/978-981-99-9109-9_7,
+author="Wang, Yong
+and Hu, Haidong
+and Gao, Hao",
+editor="Lu, Huimin
+and Cai, Jintong",
+title="Teacher Classroom Behavior Detection Based on a Human Pose Estimation Algorithm",
+booktitle="Artificial Intelligence and Robotics",
+year="2024",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="68--75",
+abstract="Teachers' classroom behavior testing can help the understand the learning situation of students, feedback the teaching effect, and formulate corresponding measures to help. Traditional evaluation methods rely on manual testing, which is time-consuming and lacks objectivity. This article suggests a new approach to analyze the behavior of teachers by using the human skeleton posture. This method first uses the popular human posture gesture estimation technology to obtain the skeleton joint node of the teacher in the teaching process, and then remove several of the joint nodes that have a weaker effect on the classification of teachers in class. Finally, a convolutional neural network was designed to classify the teacher's behavior based on the skeleton joint nodes and confidence obtained from processing the input. The experimental results show that the effectiveness of the method helps the dynamic management and evaluation of classroom teachers' behavior.",
+isbn="978-981-99-9109-9"
+}
+
+@INPROCEEDINGS{10050049,
+  author={Shuo, Wan and Zengzhao, Chen and Mengke, Wang and Yawen, Shi and Shenghu, Zhu},
+  booktitle={2022 International Conference on Intelligent Education and Intelligent Research (IEIR)}, 
+  title={Teacher Attention Measurement Based on Head Pose Estimation}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Head;Education;Pose estimation;Switches;Manuals;Cameras;Reflection;deep learning;head pose estimation;teachers’ attention;teaching evaluation},
+  doi={10.1109/IEIR56323.2022.10050049}}
+
+@article{Lin2021,
+author = {Lin, Feng-Cheng and Ngo, Huu-Huy and Dow, Chyi-Ren and Lam, Ka-Hou and Hung Linh, Le},
+year = {2021},
+month = {08},
+pages = {5314},
+title = {Student Behavior Recognition System for the Classroom Environment Based on Skeleton Pose Estimation and Person Detection},
+volume = {21},
+journal = {Sensors},
+doi = {10.3390/s21165314}
+}
+
+@article{YE2023108915,
+title = {An action analysis algorithm for teachers based on human pose estimation},
+journal = {Computers and Electrical Engineering},
+volume = {111},
+pages = {108915},
+year = {2023},
+issn = {0045-7906},
+doi = {https://doi.org/10.1016/j.compeleceng.2023.108915},
+url = {https://www.sciencedirect.com/science/article/pii/S0045790623003397},
+author = {Yixing Ye and Jixu Wang and Ping He and Jianhui Nie and Jian Xiong and Hao Gao},
+keywords = {Artificial intelligence, Object detection, Pose estimation, Action recognition},
+abstract = {Teachers serve as transmitters of cultural knowledge and play a crucial role in ongoing development and continuity of human society. Analyzing their behavior can assist educators in identifying their strengths and weaknesses within the classroom, thereby enhancing their teaching skills and methods. With the development of artificial intelligence, it is possible to automatically analyze teachers' behavior in the classroom by offering timely feedback and suggestions to improve teaching strategies. In this paper, we propose an action classification method based on human skeletal posture to analyze teacher-behavior in the classroom. First, by using the HRNet pose estimation algorithm to extract teacher skeleton information as features, the algorithm could remove redundant information in images and accurately reflect the teacher's posture. Second, by considering the relative positions of skeletal points, we establish a set of quantifiable indicators to analyze the interrelationships among these points and then obtain the teacher's local posture. Finally, relying on the local posture obtained based on the indicators, we encode and classify common behaviors of teachers in the classroom. The approach's effectiveness is evidenced by experimental results, which enables dynamic management and assessment of teacher behavior in educational environments.}
+}
+
+@article{AFSAR20156935,
+title = {Automatic visual detection of human behavior: A review from 2000 to 2014},
+journal = {Expert Systems with Applications},
+volume = {42},
+number = {20},
+pages = {6935-6956},
+year = {2015},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2015.05.023},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417415003516},
+author = {Palwasha Afsar and Paulo Cortez and Henrique Santos},
+keywords = {Data mining, Human behavior, Literature review, Video analysis, Video databases},
+abstract = {Due to advances in information technology (e.g., digital video cameras, ubiquitous sensors), the automatic detection of human behaviors from video is a very recent research topic. In this paper, we perform a systematic and recent literature review on this topic, from 2000 to 2014, covering a selection of 193 papers that were searched from six major scientific publishers. The selected papers were classified into three main subjects: detection techniques, datasets and applications. The detection techniques were divided into four categories (initialization, tracking, pose estimation and recognition). The list of datasets includes eight examples (e.g., Hollywood action). Finally, several application areas were identified, including human detection, abnormal activity detection, action recognition, player modeling and pedestrian detection. Our analysis provides a road map to guide future research for designing automatic visual human behavior detection systems.}
+}
+
+@inproceedings{hou2024encouragement,
+  author    = {Rongxiang Hou and Thomas Fütterer and Benjamin Bühler and Emre Bozkir and Peter Gerjets and Ulrich Trautwein and Enkelejda Kasneci},
+  title     = {Automated Assessment of Encouragement and Warmth in Classrooms Leveraging Multimodal Emotional Features and ChatGPT},
+  booktitle = {Proceedings of the 14th International Conference on Educational Data Mining (EDM)},
+  year      = {2024},
+  publisher = {International Educational Data Mining Society}
+}
+
+
+@article{falcon2024discourse,
+  author    = {Santiago Falcon and Jesús León},
+  title     = {Towards an Optimised Evaluation of Teachers’ Discourse: The Case of Engaging Messages},
+  journal   = {Education and Information Technologies},
+  volume    = {29},
+  number    = {1},
+  year      = {2024},
+  pages     = {1--22},
+  publisher = {Springer}
+}
+
+
+@inbook{inbook,
+author = {Priya, Bhuvana and J.M, Nandhini and Thangavel, Gnanasekaran},
+year = {2021},
+month = {10},
+pages = {},
+title = {An Analysis of the Applications of Natural Language Processing in Various Sectors},
+isbn = {9781643682020},
+doi = {10.3233/APC210109}
+}
+
+@incollection{fanni2023natural,
+  title={Natural language processing},
+  author={Fanni, Salvatore Claudio and Febi, Maria and Aghakhanyan, Gayane and Neri, Emanuele},
+  booktitle={Introduction to artificial intelligence},
+  pages={87--99},
+  year={2023},
+  publisher={Springer}
+}
+@incollection{rajput2020natural,
+  title={Natural language processing, sentiment analysis, and clinical analytics},
+  author={Rajput, Adil},
+  booktitle={Innovation in health informatics},
+  pages={79--97},
+  year={2020},
+  publisher={Elsevier}
+}
+@article{kastrati2021sentiment,
+  title={Sentiment analysis of students’ feedback with NLP and deep learning: A systematic mapping study},
+  author={Kastrati, Zenun and Dalipi, Fisnik and Imran, Ali Shariq and Pireva Nuci, Krenare and Wani, Mudasir Ahmad},
+  journal={Applied Sciences},
+  volume={11},
+  number={9},
+  pages={3986},
+  year={2021},
+  publisher={MDPI}
+}
+@article{jim2024recent,
+  title={Recent advancements and challenges of NLP-based sentiment analysis: A state-of-the-art review},
+  author={Jim, Jamin Rahman and Talukder, Md Apon Riaz and Malakar, Partha and Kabir, Md Mohsin and Nur, Kamruddin and Mridha, Mohammed Firoz},
+  journal={Natural Language Processing Journal},
+  pages={100059},
+  year={2024},
+  publisher={Elsevier}
+}
+@article{plaza2024emotion,
+  title={Emotion analysis in NLP: Trends, gaps and roadmap for future directions},
+  author={Plaza-del-Arco, Flor Miriam and Curry, Alba and Curry, Amanda Cercas and Hovy, Dirk},
+  journal={arXiv preprint arXiv:2403.01222},
+  year={2024}
+}
+@article{karabacak2024text,
+  title={From text to insight: a natural language processing-based analysis of topics and trends in neurosurgery},
+  author={Karabacak, Mert and Schupper, Alexander J and Carr, Matthew T and Hickman, Zachary L and Margetis, Konstantinos},
+  journal={Neurosurgery},
+  volume={94},
+  number={4},
+  pages={679--689},
+  year={2024},
+  publisher={LWW}
+}
+
+@article{falcon2024discourse,
+  author    = {Santiago Falcon and Jes{\'u}s Le{\'o}n},
+  title     = {Towards an optimised evaluation of teachers’ discourse: The case of engaging messages},
+  journal   = {Educational Technology & Society},
+  year      = {2024},
+  volume    = {27},
+  number    = {1},
+  pages     = {21--36}
+}
+
+@article{rowe1986wait,
+  author    = {Mary Budd Rowe},
+  title     = {Wait-Time: Slowing Down May Be a Way of Speeding Up!},
+  journal   = {Journal of Teacher Education},
+  year      = {1986},
+  volume    = {37},
+  number    = {1},
+  pages     = {43--50},
+  publisher = {SAGE Publications}
+}
+
+@article{dmello2012multimodal,
+  author    = {Sidney D'Mello and Arthur C. Graesser},
+  title     = {Multimodal semantics and affect detection in learning environments},
+  journal   = {The Handbook of Multimodal-Multisensor Interfaces},
+  year      = {2012},
+  publisher = {ACM}
+}
+
+@article{ochoa2016multimodal,
+  author    = {Xavier Ochoa and Marcelo Worsley},
+  title     = {Multimodal learning analytics: A systematic review of the literature},
+  journal   = {Journal of Learning Analytics},
+  year      = {2016},
+  volume    = {3},
+  number    = {2},
+  pages     = {115--139}
+}
+
+@book{sinclair1975discourse,
+  author    = {John Sinclair and Malcolm Coulthard},
+  title     = {Towards an Analysis of Discourse: The English Used by Teachers and Pupils},
+  publisher = {Oxford University Press},
+  year      = {1975}
+}
+
+@article{graesser2005question,
+  author    = {Arthur C. Graesser, Natalie Person, and Jeffrey D. Huber},
+  title     = {Question asking during tutoring},
+  journal   = {American Educational Research Journal},
+  year      = {2005},
+  volume    = {38},
+  number    = {3},
+  pages     = {371--410}
+}
+
+@article{chi1989self,
+  author    = {Michelene T.H. Chi, Nicholas de Leeuw, Mei-Hung Chiu, and Christian LaVancher},
+  title     = {Eliciting self-explanations improves understanding},
+  journal   = {Cognitive Science},
+  year      = {1989},
+  volume    = {18},
+  number    = {3},
+  pages     = {439--477}
+}
+
+@article{fugate2010gaze,
+  author    = {Joseph M. Fugate, Evan H. Garrison, and Janice M. Yoder},
+  title     = {Teacher gaze and student engagement},
+  journal   = {Contemporary Educational Psychology},
+  year      = {2010},
+  volume    = {35},
+  number    = {1},
+  pages     = {1--10}
+}
+
+@article{mcneill1992hand,
+  author    = {David McNeill},
+  title     = {Hand and Mind: What Gestures Reveal about Thought},
+  journal   = {University of Chicago Press},
+  year      = {1992}
+}
