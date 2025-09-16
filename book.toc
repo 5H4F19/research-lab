@@ -48,3 +48,11 @@
 \contentsline {subsubsection}{Scalability Considerations}{30}{}%
 \contentsline {subsection}{\numberline {6.10}Key Findings Summary}{30}{}%
 \contentsline {chapter}{\numberline {7}Conclusion and Future Work}{32}{}%
+\contentsline {subsection}{\numberline {7.1}Limitations}{33}{}%
+\contentsline {subsection}{\numberline {7.2}Future Work}{33}{}%
+\contentsline {subsubsection}{From Binary to Multiclass Evaluation}{33}{}%
+\contentsline {subsubsection}{Scaling Data and Labeling Efficiency}{33}{}%
+\contentsline {subsubsection}{Temporal and Multimodal Representation Learning}{33}{}%
+\contentsline {subsubsection}{Reliability, Fairness, and Privacy}{34}{}%
+\contentsline {subsubsection}{Toward Real-World Use}{34}{}%
+\contentsline {subsection}{\numberline {7.3}Closing Remarks}{34}{}%
