@@ -121,6 +121,13 @@
 \renewcommand{\cftsecfont}{\rmfamily}
 \renewcommand{\cftsubsecfont}{\rmfamily\small}
 
+
+\newcommand{\toclessheading}[1]{ % #1 is the argument
+    \vspace*{1cm}
+    \normalfont{\huge\color{pearsonblue}\textbf{#1}} % Use the argument here
+    \vspace{1cm}
+}
+
 % Enhanced caption styling
 \captionsetup{
     font={small,sf},
@@ -143,15 +150,20 @@
     }
 }
 
+\newcommand{\projectTitle}{A novel approach to evaluate pedagogical outcomes using audio, video, and linguistic analysis}
+
 \begin{document}
 
 \frontmatter
 \thispagestyle{empty}
 
+\input{sections/originality.tex}
+\input{sections/approval.tex}
 % Acknowledgments page
 \input{sections/acknowledgments.tex}
 
 % Table of contents without extra space or extra page
+\newpage
 \renewcommand{\contentsname}{Contents}
 {\let\oldchapter\chapter
 \renewcommand{\chapter}[1]{}
