@@ -225,6 +225,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cite/cite.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cite/cite.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
