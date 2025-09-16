@@ -30,4 +30,21 @@
 \contentsline {subsection}{\numberline {5.0.4}Multimodal Fusion and Classification}{18}{}%
 \contentsline {subsection}{\numberline {5.0.5}System Output and Classification}{18}{}%
 \contentsline {chapter}{\numberline {6}Results and Discussion}{21}{}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{22}{}%
+\contentsline {subsection}{\numberline {6.0.1}Individual Modality Analysis}{22}{}%
+\contentsline {subsubsection}{Visual Features Performance}{22}{}%
+\contentsline {subsubsection}{Audio Features Performance}{23}{}%
+\contentsline {subsubsection}{Linguistic Features Performance}{23}{}%
+\contentsline {subsection}{\numberline {6.0.2}Multimodal Integration Results}{24}{}%
+\contentsline {subsection}{\numberline {6.0.3}Cross-Validation Analysis}{25}{}%
+\contentsline {subsection}{\numberline {6.0.4}Feature Scaling and Model Performance}{26}{}%
+\contentsline {subsection}{\numberline {6.0.5}Model Discrimination Capability}{27}{}%
+\contentsline {subsection}{\numberline {6.0.6}Confusion Matrix Analysis}{28}{}%
+\contentsline {subsection}{\numberline {6.0.7}Algorithm Comparison}{28}{}%
+\contentsline {subsection}{\numberline {6.0.8}Statistical Significance and Effect Size}{29}{}%
+\contentsline {subsection}{\numberline {6.0.9}Practical Implications}{29}{}%
+\contentsline {subsubsection}{Comprehensive Assessment Framework}{29}{}%
+\contentsline {subsubsection}{Automated Quality Assurance}{29}{}%
+\contentsline {subsubsection}{Pedagogical Feedback Mechanisms}{30}{}%
+\contentsline {subsubsection}{Scalability Considerations}{30}{}%
+\contentsline {subsection}{\numberline {6.0.10}Key Findings Summary}{30}{}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{31}{}%
