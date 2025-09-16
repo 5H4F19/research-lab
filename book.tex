@@ -154,13 +154,14 @@
 
 \begin{document}
 
+
 \frontmatter
-\thispagestyle{empty}
+\pagestyle{plain} % Disable headers for frontmatter (before TOC)
 
 \input{sections/originality.tex}
 \input{sections/approval.tex}
-% Acknowledgments page
 \input{sections/acknowledgments.tex}
+\input{sections/abstract.tex}
 
 % Table of contents without extra space or extra page
 \newpage
@@ -170,7 +171,9 @@
 \tableofcontents
 \renewcommand{\chapter}{\oldchapter}}
 
+
 \mainmatter
+\pagestyle{fancy} % Restore headers for main content
 
 \chapter{Introduction}
 \input{sections/introduction.tex}

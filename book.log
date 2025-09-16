@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  16 SEP 2025 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  17 SEP 2025 00:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -711,25 +711,23 @@ Package caption Info: End \AtBeginDocument code.
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./sections/acknowledgments.tex
 
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 1.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
+[2]) (./sections/abstract.tex
+
+[3])
+
+[4]
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 171.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 1.
+(Font)              scaled to size 22.39185pt on input line 171.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 1.
- [2])
-
-[3]
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 170.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 170.
+(Font)              scaled to size 22.39185pt on input line 171.
  (./book.toc
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 1.
@@ -771,25 +769,22 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 
-[4])
+[5])
 \tf@toc=\write4
 \openout4 = `book.toc'.
 
 
 
-[5]
-
-[6
-
-]
+[6]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 175.
+(Font)              scaled to size 15.55188pt on input line 178.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 175.
+(Font)              scaled to size 15.55188pt on input line 178.
 (./sections/introduction.tex
 
 [1
+
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 14.
@@ -797,6 +792,10 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 14
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
 
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 181.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 181.
 [2]
 
 [3]
@@ -943,15 +942,15 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24128 strings out of 473190
- 500823 string characters out of 5715800
- 924556 words of memory out of 5000000
- 46624 multiletter control sequences out of 15000+600000
+ 24134 strings out of 473190
+ 500963 string characters out of 5715800
+ 924555 words of memory out of 5000000
+ 46627 multiletter control sequences out of 15000+600000
  630904 words of font info for 297 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,15n,107p,1101b,1030s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on book.pdf (31 pages, 129593 bytes).
+Output written on book.pdf (31 pages, 130146 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream
