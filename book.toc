@@ -1,50 +1,50 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {chapter}{\numberline {2}Related Work}{4}{}%
-\contentsline {subsection}{\numberline {2.0.1}Student Feedback-Based Evaluation}{4}{}%
-\contentsline {subsection}{\numberline {2.0.2}Auditory-Based Evaluation}{5}{}%
-\contentsline {subsection}{\numberline {2.0.3}Vision-Based Evaluation}{5}{}%
-\contentsline {subsection}{\numberline {2.0.4}Linguistic and Discourse-Based Evaluation}{6}{}%
-\contentsline {subsection}{\numberline {2.0.5}Hybrid and Multimodal Evaluation Approaches}{6}{}%
+\contentsline {subsection}{\numberline {2.1}Student Feedback-Based Evaluation}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Auditory-Based Evaluation}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Vision-Based Evaluation}{5}{}%
+\contentsline {subsection}{\numberline {2.4}Linguistic and Discourse-Based Evaluation}{6}{}%
+\contentsline {subsection}{\numberline {2.5}Hybrid and Multimodal Evaluation Approaches}{6}{}%
 \contentsline {chapter}{\numberline {3}Methodology}{8}{}%
-\contentsline {subsection}{\numberline {3.0.1}Research Design and Approach}{8}{}%
-\contentsline {subsection}{\numberline {3.0.2}Participants and Sampling}{9}{}%
-\contentsline {subsection}{\numberline {3.0.3}Data Collection Methods}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Research Design and Approach}{8}{}%
+\contentsline {subsection}{\numberline {3.2}Participants and Sampling}{9}{}%
+\contentsline {subsection}{\numberline {3.3}Data Collection Methods}{9}{}%
 \contentsline {subsubsection}{Student Feedback Instruments}{9}{}%
 \contentsline {subsubsection}{Multimodal System Components}{10}{}%
-\contentsline {subsection}{\numberline {3.0.4}Data Processing and Feature Extraction}{10}{}%
+\contentsline {subsection}{\numberline {3.4}Data Processing and Feature Extraction}{10}{}%
 \contentsline {subsubsection}{Audio Data Processing}{10}{}%
 \contentsline {subsubsection}{Visual Data Analysis}{11}{}%
 \contentsline {subsubsection}{Linguistic and Discourse Analysis}{12}{}%
 \contentsline {subsubsection}{Student Feedback Processing}{12}{}%
-\contentsline {subsection}{\numberline {3.0.5}Evaluation Metrics}{12}{}%
-\contentsline {subsection}{\numberline {3.0.6}Ethical Considerations}{13}{}%
+\contentsline {subsection}{\numberline {3.5}Evaluation Metrics}{12}{}%
+\contentsline {subsection}{\numberline {3.6}Ethical Considerations}{13}{}%
 \contentsline {chapter}{\numberline {4}Experimental Setup}{14}{}%
-\contentsline {subsection}{\numberline {4.0.1}Classroom Environment}{14}{}%
-\contentsline {subsection}{\numberline {4.0.2}Hardware and Software}{14}{}%
-\contentsline {subsection}{\numberline {4.0.3}Data Collection Procedure}{15}{}%
-\contentsline {subsection}{\numberline {4.0.4}Dataset Overview}{15}{}%
+\contentsline {subsection}{\numberline {4.1}Classroom Environment}{14}{}%
+\contentsline {subsection}{\numberline {4.2}Hardware and Software}{14}{}%
+\contentsline {subsection}{\numberline {4.3}Data Collection Procedure}{15}{}%
+\contentsline {subsection}{\numberline {4.4}Dataset Overview}{15}{}%
 \contentsline {chapter}{\numberline {5}System Architecture}{16}{}%
-\contentsline {subsection}{\numberline {5.0.1}Video Stream pipeline}{16}{}%
-\contentsline {subsection}{\numberline {5.0.2}Audio Stream pipeline}{16}{}%
-\contentsline {subsection}{\numberline {5.0.3}Text Stream pipeline}{17}{}%
-\contentsline {subsection}{\numberline {5.0.4}Multimodal Fusion and Classification}{18}{}%
-\contentsline {subsection}{\numberline {5.0.5}System Output and Classification}{18}{}%
+\contentsline {subsection}{\numberline {5.1}Video Stream pipeline}{16}{}%
+\contentsline {subsection}{\numberline {5.2}Audio Stream pipeline}{16}{}%
+\contentsline {subsection}{\numberline {5.3}Text Stream pipeline}{17}{}%
+\contentsline {subsection}{\numberline {5.4}Multimodal Fusion and Classification}{18}{}%
+\contentsline {subsection}{\numberline {5.5}System Output and Classification}{18}{}%
 \contentsline {chapter}{\numberline {6}Results and Discussion}{21}{}%
-\contentsline {subsection}{\numberline {6.0.1}Individual Modality Analysis}{22}{}%
+\contentsline {subsection}{\numberline {6.1}Individual Modality Analysis}{22}{}%
 \contentsline {subsubsection}{Visual Features Performance}{22}{}%
 \contentsline {subsubsection}{Audio Features Performance}{23}{}%
 \contentsline {subsubsection}{Linguistic Features Performance}{23}{}%
-\contentsline {subsection}{\numberline {6.0.2}Multimodal Integration Results}{24}{}%
-\contentsline {subsection}{\numberline {6.0.3}Cross-Validation Analysis}{25}{}%
-\contentsline {subsection}{\numberline {6.0.4}Feature Scaling and Model Performance}{26}{}%
-\contentsline {subsection}{\numberline {6.0.5}Model Discrimination Capability}{27}{}%
-\contentsline {subsection}{\numberline {6.0.6}Confusion Matrix Analysis}{28}{}%
-\contentsline {subsection}{\numberline {6.0.7}Algorithm Comparison}{28}{}%
-\contentsline {subsection}{\numberline {6.0.8}Statistical Significance and Effect Size}{29}{}%
-\contentsline {subsection}{\numberline {6.0.9}Practical Implications}{29}{}%
+\contentsline {subsection}{\numberline {6.2}Multimodal Integration Results}{24}{}%
+\contentsline {subsection}{\numberline {6.3}Cross-Validation Analysis}{25}{}%
+\contentsline {subsection}{\numberline {6.4}Feature Scaling and Model Performance}{26}{}%
+\contentsline {subsection}{\numberline {6.5}Model Discrimination Capability}{27}{}%
+\contentsline {subsection}{\numberline {6.6}Confusion Matrix Analysis}{28}{}%
+\contentsline {subsection}{\numberline {6.7}Algorithm Comparison}{28}{}%
+\contentsline {subsection}{\numberline {6.8}Statistical Significance and Effect Size}{29}{}%
+\contentsline {subsection}{\numberline {6.9}Practical Implications}{29}{}%
 \contentsline {subsubsection}{Comprehensive Assessment Framework}{29}{}%
-\contentsline {subsubsection}{Automated Quality Assurance}{29}{}%
+\contentsline {subsubsection}{Automated Quality Assurance}{30}{}%
 \contentsline {subsubsection}{Pedagogical Feedback Mechanisms}{30}{}%
 \contentsline {subsubsection}{Scalability Considerations}{30}{}%
-\contentsline {subsection}{\numberline {6.0.10}Key Findings Summary}{30}{}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{31}{}%
+\contentsline {subsection}{\numberline {6.10}Key Findings Summary}{30}{}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{32}{}%

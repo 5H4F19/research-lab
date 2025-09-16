@@ -112,22 +112,9 @@ Confusion matrix analysis reveals that multimodal approaches achieve better bala
 
 \subsection{Algorithm Comparison}
 
-The comparison between Logistic Regression and SVM reveals interesting patterns:
+The comparative analysis between Logistic Regression and Support Vector Machine reveals distinct performance characteristics across different modality configurations. Logistic Regression demonstrates superior performance for the multimodal approach, achieving 71.33\% accuracy compared to SVM's 70.33\%, representing a 1.0 percentage point advantage. This superiority extends to cross-validation stability, where Logistic Regression exhibits lower variance (±1.74\%) compared to SVM (±2.67\%), indicating more consistent performance across different data splits. The linear nature of Logistic Regression appears particularly well-suited for handling the integrated multimodal feature space, suggesting that the combined features exhibit predominantly linear relationships with pedagogical effectiveness. Additionally, Logistic Regression offers enhanced interpretability through its probabilistic outputs and coefficient weights, making it more suitable for educational stakeholders who require transparent assessment criteria and explainable decision-making processes.
 
-\textbf{Logistic Regression Advantages:}
-\begin{itemize}
-    \item Consistently higher accuracy for combined features (71.33\% vs. 70.33\%)
-    \item Better interpretability for pedagogical stakeholders
-    \item Faster training and prediction times
-    \item More stable cross-validation performance for multimodal data
-\end{itemize}
-
-\textbf{SVM Advantages:}
-\begin{itemize}
-    \item Superior performance on audio features alone (62.33\% vs. 59.67\%)
-    \item Better handling of individual modality feature spaces
-    \item Competitive multimodal performance with different discriminative patterns
-\end{itemize}
+Conversely, Support Vector Machine demonstrates competitive performance with distinct advantages in specific modality configurations, particularly excelling in audio feature analysis where it achieves 62.33\% accuracy compared to Logistic Regression's 59.67\%. This 2.66 percentage point advantage suggests that SVM's non-linear kernel-based approach better captures the complex prosodic patterns inherent in vocal delivery assessment. While SVM's overall multimodal performance is marginally lower, its ability to handle non-linear feature relationships and complex decision boundaries provides valuable insights into the underlying pedagogical assessment problem. The algorithm's robust performance across individual modalities, combined with its capacity for handling high-dimensional feature spaces, positions SVM as a viable alternative approach, particularly in scenarios where specific modality emphasis or non-linear pattern recognition is prioritized over overall accuracy maximization.
 
 \subsection{Statistical Significance and Effect Size}
 

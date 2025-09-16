@@ -97,6 +97,9 @@
 {\normalfont\large\sffamily\bfseries\color{black}}
 {\thesubsection}{1em}{}
 
+% Remove middle zero from subsection numbering (6.0.1 -> 6.1)
+\renewcommand{\thesubsection}{\thechapter.\arabic{subsection}}
+
 % Subsubsection formatting
 \titleformat{\subsubsection}
 {\normalfont\normalsize\sffamily\bfseries}
