@@ -259,13 +259,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
-OUTPUT book.pdf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
-INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
 INPUT ./book.toc
@@ -318,6 +311,13 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
+OUTPUT book.pdf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  16 SEP 2025 19:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  16 SEP 2025 19:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -720,14 +720,8 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 2.
 )
-
-[1
-
-
-
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 158.
+(Font)              scaled to size 22.39185pt on input line 157.
  (./book.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 1.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
@@ -768,7 +762,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 3.
 
 
-[2])
+[1
+
+
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}])
 \tf@toc=\write4
 \openout4 = `book.toc'.
 
@@ -776,17 +774,14 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 8.99994pt on input line 160.
-[3]
-
-[4
-
-]
+[2]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 162.
 (./sections/introduction.tex
 
 [1
+
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 14.
@@ -797,10 +792,6 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [2]
 
 [3]
-
-[4
-
-]
 Chapter 2.
 (./sections/related_work.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -809,50 +800,52 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 3.
 
 
-[5]
+[4
 
-[6])
+]
+
+[5])
+
+[6]
 
 [7]
-
-[8]
 Chapter 3.
 (./sections/methodology.tex
 
-[9
+[8
 
 ]
+
+[9]
 
 [10]
 
 [11]
 
-[12]
+[12])
 
-[13])
-
-[14]
+[13]
 Chapter 4.
 (./sections/experimental_setup.tex
 
-[15
+[14
 
 ])
 
-[16]
+[15]
 Chapter 5.
 (./sections/system_architecture.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[17
+[16
 
 ]
 
-[18]
+[17]
 
-[19]
+[18]
 Underfull \hbox (badness 2197) in paragraph at lines 131--132
 []\T1/ptm/m/n/10.95 (+20) Meets ex-pec-ta-tions in most ar-eas; some
  []
@@ -909,55 +902,48 @@ Overfull \hbox (98.0011pt too wide) in paragraph at lines 146--194
 
 )
 
+[19]
+
 [20]
-
-[21]
-
-[22
-
-]
 Chapter 6.
 
 
-[23]
-
-[24
+[21
 
 ]
 Chapter 7.
 
 
-[25]
-
-[26
+[22
 
 ] (./book.bbl
 
-[27
+[23
+
 
 ]
 
-[28])
+[24])
 
-[29] (./book.aux)
+[25] (./book.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24079 strings out of 473190
- 500084 string characters out of 5715800
- 924453 words of memory out of 5000000
- 46607 multiletter control sequences out of 15000+600000
+ 24080 strings out of 473190
+ 500094 string characters out of 5715800
+ 924438 words of memory out of 5000000
+ 46608 multiletter control sequences out of 15000+600000
  623834 words of font info for 279 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,15n,107p,1101b,1030s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on book.pdf (33 pages, 129023 bytes).
+Output written on book.pdf (27 pages, 126971 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  75277 words of extra memory for PDF output out of 89155 (max. 10000000)
 

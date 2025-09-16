@@ -4,7 +4,7 @@
 
 % !TeX program = pdflatex
 
-\documentclass[11pt,twoside,openright]{book}
+\documentclass[11pt,twoside,openany]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
@@ -93,7 +93,7 @@
 
 % Subsection formatting
 \titleformat{\subsection}
-{\normalfont\large\sffamily\bfseries\color{pearsongray}}
+{\normalfont\large\sffamily\bfseries\color{black}}
 {\thesubsection}{1em}{}
 
 % Subsubsection formatting
@@ -148,14 +148,14 @@
 \thispagestyle{empty}
 
 % Acknowledgments page
-\newpage
 \input{sections/acknowledgments.tex}
 
-\newpage
-
-% Table of contents without extra space
+% Table of contents without extra space or extra page
 \renewcommand{\contentsname}{Contents}
+{\let\oldchapter\chapter
+\renewcommand{\chapter}[1]{}
 \tableofcontents
+\renewcommand{\chapter}{\oldchapter}}
 
 \mainmatter
 

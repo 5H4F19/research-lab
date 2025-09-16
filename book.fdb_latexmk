@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex book"] 1758029632.54052 "book.aux" "book.bbl" "book" 1758029633.89603 0
+["bibtex book"] 1758030680.72603 "book.aux" "book.bbl" "book" 1758030682.09731 0
   "./research.bib" 1752814779.20635 17137 0362da7d45453d74d2322e7249fd34e6 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "book.aux" 1758029633.64904 9939 c77ec9013b731ac894ad30bd75d146df "pdflatex"
+  "book.aux" 1758030681.8525 9934 39142eb802cf41bfe6a47265a65c392c "pdflatex"
   (generated)
   "book.bbl"
   "book.blg"
   (rewritten before read)
-["pdflatex"] 1758029632.64508 "/Users/shafiq/Projects/Codes/latex/research/book.tex" "book.pdf" "book" 1758029633.89617 0
-  "/Users/shafiq/Projects/Codes/latex/research/book.tex" 1758029535.11386 5231 2ca487678a7e0b9d8b7a64a88e2f5de8 ""
+["pdflatex"] 1758030680.83234 "/Users/shafiq/Projects/Codes/latex/research/book.tex" "book.pdf" "book" 1758030682.09745 0
+  "/Users/shafiq/Projects/Codes/latex/research/book.tex" 1758030679.08472 5310 63d2945dc5f426186335c1b84b666bf3 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -183,10 +183,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745051200 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745051155 3345741 fb32dcdd18fbbdda7cc127d3dcd3fa79 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "book.aux" 1758029633.64904 9939 c77ec9013b731ac894ad30bd75d146df "pdflatex"
-  "book.bbl" 1758029632.64225 7660 0f01435baf0b3eb7f58c18cc67ae08ad "bibtex book"
-  "book.tex" 1758029535.11386 5231 2ca487678a7e0b9d8b7a64a88e2f5de8 ""
-  "book.toc" 1758029633.65075 2470 750d352ff28ad17929d0308dd6954e7f "pdflatex"
+  "book.aux" 1758030681.8525 9934 39142eb802cf41bfe6a47265a65c392c "pdflatex"
+  "book.bbl" 1758030680.82936 7660 0f01435baf0b3eb7f58c18cc67ae08ad "bibtex book"
+  "book.tex" 1758030679.08472 5310 63d2945dc5f426186335c1b84b666bf3 ""
+  "book.toc" 1758030681.85439 2467 fb81cc5094f10e48f4b7152f11dd3c20 "pdflatex"
   "sections/acknowledgments.tex" 1758029401.17267 471 49422af501020dbb757a402660de9c26 ""
   "sections/experimental_setup.tex" 1758020812.35817 2776 c2553895e21ba98d412ffacc1bb189b7 ""
   "sections/introduction.tex" 1758020812.35808 5743 e21904e823cb219f01dd5302e7b9be29 ""
