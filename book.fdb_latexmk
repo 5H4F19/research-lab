@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex book"] 1758058298.49922 "book.aux" "book.bbl" "book" 1758058301.44027 0
+["bibtex book"] 1758058298.49922 "book.aux" "book.bbl" "book" 1758058836.4241 0
   "./research.bib" 1752814779.20635 17137 0362da7d45453d74d2322e7249fd34e6 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "book.aux" 1758058300.9482 14279 6f127ba0740f0e5148862278e578a6ab "pdflatex"
+  "book.aux" 1758058836.15912 14279 6f127ba0740f0e5148862278e578a6ab "pdflatex"
   (generated)
   "book.bbl"
   "book.blg"
   (rewritten before read)
-["pdflatex"] 1758058298.6049 "/Users/shafiq/Projects/Codes/latex/research/book.tex" "book.pdf" "book" 1758058301.44051 0
-  "/Users/shafiq/Projects/Codes/latex/research/book.tex" 1758057533.1128 5656 080477f74f078cc68c52172dc79b0235 ""
+["pdflatex"] 1758058834.97021 "/Users/shafiq/Projects/Codes/latex/research/book.tex" "book.pdf" "book" 1758058836.42427 0
+  "/Users/shafiq/Projects/Codes/latex/research/book.tex" 1758058834.70294 5669 ba7fdcb97b9f81e84b82b11621183743 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -185,10 +185,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745051200 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745051155 3345741 fb32dcdd18fbbdda7cc127d3dcd3fa79 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "book.aux" 1758058300.9482 14279 6f127ba0740f0e5148862278e578a6ab "pdflatex"
+  "book.aux" 1758058836.15912 14279 6f127ba0740f0e5148862278e578a6ab "pdflatex"
   "book.bbl" 1758058298.60148 7660 0f01435baf0b3eb7f58c18cc67ae08ad "bibtex book"
-  "book.tex" 1758057533.1128 5656 080477f74f078cc68c52172dc79b0235 ""
-  "book.toc" 1758058300.95063 3771 97b18fa338ed576ada53861d3325cb99 "pdflatex"
+  "book.tex" 1758058834.70294 5669 ba7fdcb97b9f81e84b82b11621183743 ""
+  "book.toc" 1758058836.16036 3771 97b18fa338ed576ada53861d3325cb99 "pdflatex"
   "sections/abstract.tex" 1758048820.81857 811 23ee9b38968743f87fb8497aefddec92 ""
   "sections/acknowledgments.tex" 1758044493.67908 184 3d2c8cafa0606ef6b6dfcd0250694b38 ""
   "sections/approval.tex" 1758044428.16547 986 4d0014f100b39dbedcfc972ca94e7bc6 ""
