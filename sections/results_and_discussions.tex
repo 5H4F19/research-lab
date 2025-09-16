@@ -1,7 +1,15 @@
 % This is the now Chapter 6
+
+This comprehensive evaluation presents compelling evidence for the effectiveness of our proposed multimodal pedagogical assessment framework, demonstrating significant advancements in automated teaching evaluation through integrated data analysis. Our research addresses the critical need for objective, scalable assessment tools in educational environments by combining visual behavioral patterns, audio-prosodic features, and linguistic discourse analysis into a unified predictive model. 
+
+The experimental results reveal that multimodal integration achieves 71.33\% accuracy using Logistic Regression, representing a substantial 4.33\% improvement over the best individual modality (linguistic features at 67.0\%), while maintaining superior cross-validation stability with reduced performance variance. These findings align directly with our primary research objectives of developing a comprehensive assessment framework that captures the multifaceted nature of effective teaching, providing actionable feedback mechanisms for educators, and establishing a foundation for scalable deployment in diverse educational contexts.
+
+The demonstrated synergistic effects between modalities, enhanced model stability, and practical applicability of our approach validate the central hypothesis that integrated multimodal analysis significantly enhances pedagogical assessment accuracy and reliability. Furthermore, the results establish a robust empirical foundation for future developments in automated educational quality assurance systems, positioning our methodology as a viable solution for large-scale implementation in institutional settings where traditional assessment methods may be limited by subjectivity, scalability constraints, or resource availability.
+
 This section presents the comprehensive evaluation of the proposed multimodal approach for pedagogical assessment. The analysis compares the performance of individual modalities (visual, audio, and linguistic) against the combined multimodal approach using two machine learning algorithms: Logistic Regression and Support Vector Machine (SVM).
 
-The experimental results demonstrate a clear superiority of the multimodal approach over individual modality-based assessments. Table~\ref{tab:performance_summary} presents the comprehensive performance metrics across all tested configurations.
+The experimental results demonstrate a clear superiority of the multimodal approach over individual modality-based assessments. Table~\ref{tab:performance_table} presents the comprehensive performance metrics across all tested configurations.
+
 
 \begin{figure}[H]
     \centering
@@ -16,39 +24,23 @@ The combined multimodal approach achieved the highest accuracy of 71.33\% using 
 
 \subsubsection{Visual Features Performance}
 
-Visual features, encompassing teacher movement patterns, gesture frequency, classroom coverage, and facial expressions, demonstrated moderate predictive capability. The Logistic Regression model achieved 57.67\% accuracy, while SVM reached 60.0\% accuracy for visual-only features.
+Visual features encompassed teacher movement patterns, gesture frequency, classroom coverage, and facial expressions, demonstrating moderate predictive capability in pedagogical assessment. The visual modality achieved \textbf{57.67\%} accuracy with Logistic Regression and \textbf{60.0\%} accuracy with SVM, representing the lowest performance among individual modalities.
 
-Key visual indicators that contributed to the model's performance included:
-\begin{itemize}
-    \item Classroom coverage patterns reflecting teacher mobility and student engagement zones
-    \item Frontal stance duration indicating direct student interaction
-    \item Gesture frequency representing pedagogical expressiveness
-    \item Spatial consistency measuring structured movement patterns
-\end{itemize}
+Despite this relative underperformance, several visual indicators emerged as meaningful contributors to pedagogical effectiveness assessment. These included classroom coverage patterns that reflect teacher mobility and engagement with different student zones, frontal stance duration indicating direct interaction time with students, gesture frequency representing pedagogical expressiveness and emphasis, and spatial consistency measuring structured movement patterns that support organized content delivery. While visual features alone showed limitations in predictive accuracy, their integration with other modalities proved essential for comprehensive assessment, as demonstrated in subsequent multimodal results.
 
 \subsubsection{Audio Features Performance}
 
-Audio modality analysis focused on prosodic features, speech patterns, and vocal characteristics. This modality showed comparable performance to visual features, with Logistic Regression achieving 59.67\% accuracy and SVM reaching 62.33\% accuracy.
+Audio features demonstrated solid predictive performance through prosodic analysis and vocal pattern recognition, achieving \textbf{59.67\%} accuracy with Logistic Regression and \textbf{62.33\%} accuracy with SVM. The audio modality captured essential elements of effective pedagogical delivery including pitch variability that signals teacher engagement and emphasis during critical concepts, speech rate consistency that indicates controlled content pacing and student comprehension awareness, strategic pause utilization that demonstrates thoughtful discourse structuring and allows processing time, and vocal intensity modulation that reinforces key pedagogical points through natural emphasis patterns.
 
-Critical audio features included:
-\begin{itemize}
-    \item Pitch variability indicating pedagogical emphasis and engagement
-    \item Speech rate patterns reflecting content delivery pace
-    \item Pause ratio analysis showing thoughtful discourse structure
-    \item Intensity variations demonstrating vocal emphasis techniques
-\end{itemize}
+These prosodic characteristics proved particularly valuable when combined with other modalities, as vocal delivery often reinforces visual gestures and supports linguistic content structuring in effective teaching scenarios. The moderate performance of audio features alone suggests that while vocal patterns contribute meaningfully to pedagogical assessment, they achieve optimal effectiveness when integrated with complementary visual and linguistic modalities.
 
 \subsubsection{Linguistic Features Performance}
 
-Linguistic analysis proved to be the strongest individual modality, achieving 67.0\% accuracy with Logistic Regression and 67.67\% accuracy with SVM. This superior performance highlights the importance of discourse quality in pedagogical assessment.
+Linguistic features emerged as the most predictive individual modality, achieving \textbf{67.0\%} accuracy with Logistic Regression and \textbf{67.67\%} accuracy with SVM. This superior performance highlights the fundamental importance of discourse quality in pedagogical effectiveness assessment.
 
-Significant linguistic indicators comprised:
-\begin{itemize}
-    \item Lexical diversity reflecting vocabulary richness and adaptability
-    \item Question ratio indicating interactive teaching approaches
-    \item Use of examples and summaries showing structured content delivery
-    \item Bloom's taxonomy complexity measuring cognitive engagement levels
-\end{itemize}
+The linguistic analysis captured essential elements of effective teaching delivery including lexical diversity metrics that quantify vocabulary richness and adaptability to student comprehension levels, interactive question ratios that measure facilitated student engagement and participation, strategic deployment of examples and summaries indicating structured content scaffolding, and discourse complexity levels that assess cognitive engagement depth through Bloom's taxonomy frameworks.
+
+The consistently strong performance across both algorithms establishes linguistic features as the most reliable foundation for pedagogical assessment, reflecting the central role of verbal communication in educational content delivery and classroom relationship establishment.
 
 \subsection{Multimodal Integration Results}
 
@@ -77,14 +69,7 @@ These improvements can be attributed to the complementary nature of different mo
     \label{fig:cross_validation}
 \end{figure}
 
-Cross-validation results provide robust evidence of the multimodal approach's superiority and stability. The combined approach achieved a mean cross-validation accuracy of 70.4\% (±1.74\%) for Logistic Regression and 70.9\% (±2.67\%) for SVM, with notably lower variance compared to individual modalities.
-
-The reduced standard deviation in the multimodal approach indicates:
-\begin{itemize}
-    \item Enhanced model stability across different data splits
-    \item Reduced overfitting through feature diversification
-    \item More consistent performance across varying teaching contexts
-\end{itemize}
+Cross-validation results provide robust evidence of the multimodal approach's superiority and stability. The combined approach achieved a mean cross-validation accuracy of \textbf{70.4\% (±1.74\%)} for Logistic Regression and \textbf{70.9\% (±2.67\%)} for SVM, with notably lower variance compared to individual modalities. The reduced standard deviation in the multimodal approach indicates enhanced model stability across different data splits, reduced overfitting through feature diversification, and more consistent performance across varying teaching contexts. This stability is particularly crucial for pedagogical assessment systems, where consistent evaluation standards are essential for maintaining educational quality and providing reliable feedback to instructors across diverse teaching scenarios.
 
 \subsection{Feature Scaling and Model Performance}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  17 SEP 2025 03:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  17 SEP 2025 04:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -886,24 +886,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--130
 Chapter 6.
 (./sections/results_and_discussions.tex
 
-LaTeX Warning: Reference `tab:performance_summary' on page 21 undefined on input line 4.
-
-<sections/performance_table.jpg, id=92, 1089.8316pt x 491.6769pt>
-File: sections/performance_table.jpg Graphic file (type jpg)
-<use sections/performance_table.jpg>
-Package pdftex.def Info: sections/performance_table.jpg  used on input line 8.
-(pdftex.def)             Requested size: 373.9947pt x 168.72842pt.
-
-
 [21
 
 ]
+
+LaTeX Warning: Reference `tab:performance_table' on page 22 undefined on input line 11.
+
+<sections/performance_table.jpg, id=95, 1089.8316pt x 491.6769pt>
+File: sections/performance_table.jpg Graphic file (type jpg)
+<use sections/performance_table.jpg>
+Package pdftex.def Info: sections/performance_table.jpg  used on input line 16.
+(pdftex.def)             Requested size: 373.9947pt x 168.72842pt.
+
 
 [22 <./sections/performance_table.jpg>]
 <sections/performance_comparison.jpg, id=99, 1076.3412pt x 858.5676pt>
 File: sections/performance_comparison.jpg Graphic file (type jpg)
 <use sections/performance_comparison.jpg>
-Package pdftex.def Info: sections/performance_comparison.jpg  used on input line 57.
+Package pdftex.def Info: sections/performance_comparison.jpg  used on input line 49.
 (pdftex.def)             Requested size: 415.5525pt x 331.47314pt.
 
 
@@ -913,12 +913,12 @@ Package pdftex.def Info: sections/performance_comparison.jpg  used on input line
 <sections/cross_validation_comparison.jpg, id=106, 1076.3412pt x 425.6703pt>
 File: sections/cross_validation_comparison.jpg Graphic file (type jpg)
 <use sections/cross_validation_comparison.jpg>
-Package pdftex.def Info: sections/cross_validation_comparison.jpg  used on input line 75.
+Package pdftex.def Info: sections/cross_validation_comparison.jpg  used on input line 67.
 (pdftex.def)             Requested size: 415.5525pt x 164.34148pt.
 <sections/feature_count_vs_performance.jpg, id=107, 1076.3412pt x 858.5676pt>
 File: sections/feature_count_vs_performance.jpg Graphic file (type jpg)
 <use sections/feature_count_vs_performance.jpg>
-Package pdftex.def Info: sections/feature_count_vs_performance.jpg  used on input line 93.
+Package pdftex.def Info: sections/feature_count_vs_performance.jpg  used on input line 78.
 (pdftex.def)             Requested size: 415.5525pt x 331.47314pt.
 
 
@@ -926,7 +926,7 @@ Package pdftex.def Info: sections/feature_count_vs_performance.jpg  used on inpu
 <sections/roc_curves.jpg, id=112, 1076.3412pt x 425.1885pt>
 File: sections/roc_curves.jpg Graphic file (type jpg)
 <use sections/roc_curves.jpg>
-Package pdftex.def Info: sections/roc_curves.jpg  used on input line 104.
+Package pdftex.def Info: sections/roc_curves.jpg  used on input line 89.
 (pdftex.def)             Requested size: 415.5525pt x 164.15546pt.
 
 
@@ -934,7 +934,7 @@ Package pdftex.def Info: sections/roc_curves.jpg  used on input line 104.
 <sections/confusion_matrices.jpg, id=116, 1428.7779pt x 714.2685pt>
 File: sections/confusion_matrices.jpg Graphic file (type jpg)
 <use sections/confusion_matrices.jpg>
-Package pdftex.def Info: sections/confusion_matrices.jpg  used on input line 121.
+Package pdftex.def Info: sections/confusion_matrices.jpg  used on input line 106.
 (pdftex.def)             Requested size: 415.5525pt x 207.74289pt.
 
 
@@ -970,18 +970,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24351 strings out of 473190
- 505295 string characters out of 5715800
+ 24362 strings out of 473190
+ 505408 string characters out of 5715800
  926272 words of memory out of 5000000
- 46802 multiletter control sequences out of 15000+600000
- 632387 words of font info for 321 fonts, out of 8000000 for 9000
+ 46804 multiletter control sequences out of 15000+600000
+ 632932 words of font info for 327 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,15n,107p,1101b,1030s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on book.pdf (40 pages, 3324626 bytes).
+Output written on book.pdf (40 pages, 3329028 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 83499 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 85547 words of extra memory for PDF output out of 89155 (max. 10000000)
 

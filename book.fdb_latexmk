@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex book"] 1758058298.49922 "book.aux" "book.bbl" "book" 1758058836.4241 0
+["bibtex book"] 1758060242.3951 "book.aux" "book.bbl" "book" 1758061069.51637 0
   "./research.bib" 1752814779.20635 17137 0362da7d45453d74d2322e7249fd34e6 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "book.aux" 1758058836.15912 14279 6f127ba0740f0e5148862278e578a6ab "pdflatex"
+  "book.aux" 1758061069.26085 14279 6f127ba0740f0e5148862278e578a6ab "pdflatex"
   (generated)
   "book.bbl"
   "book.blg"
   (rewritten before read)
-["pdflatex"] 1758058834.97021 "/Users/shafiq/Projects/Codes/latex/research/book.tex" "book.pdf" "book" 1758058836.42427 0
+["pdflatex"] 1758061068.09065 "/Users/shafiq/Projects/Codes/latex/research/book.tex" "book.pdf" "book" 1758061069.51649 0
   "/Users/shafiq/Projects/Codes/latex/research/book.tex" 1758058834.70294 5669 ba7fdcb97b9f81e84b82b11621183743 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -16,6 +16,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm" 1136768653 4712 9ef4d7d106579d4b136e1529e1a4533c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm" 1136768653 7040 b2bd27e2bfe6f6948cbc3239cae7444f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8c.tfm" 1136768653 1340 d2f6275bc4fa3f07e3bc50aae2c71eab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm" 1136768653 1352 fa28a7e6d323c65ce7d13d5342ff6be2 ""
@@ -39,6 +40,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1136849748 45458 a3faba884469519614ca56ba5f6b1de1 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf" 1136768653 2340 0efed6a948c3c37d870e4e7ddb85c7c3 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf" 1136768653 2344 44ff28c9ef2fc97180cd884f900fee71 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8c.vf" 1136768653 3556 f148a8ed6ef01fed553027171e4f9b22 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf" 1136768653 2340 df9c920cc5688ebbf16a93f45ce7bdd3 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1136768653 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf" 1136768653 2348 91706c542228501c410c266421fbe30c ""
@@ -185,10 +187,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745051200 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745051155 3345741 fb32dcdd18fbbdda7cc127d3dcd3fa79 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "book.aux" 1758058836.15912 14279 6f127ba0740f0e5148862278e578a6ab "pdflatex"
-  "book.bbl" 1758058298.60148 7660 0f01435baf0b3eb7f58c18cc67ae08ad "bibtex book"
+  "book.aux" 1758061069.26085 14279 6f127ba0740f0e5148862278e578a6ab "pdflatex"
+  "book.bbl" 1758060242.49165 7660 0f01435baf0b3eb7f58c18cc67ae08ad "bibtex book"
   "book.tex" 1758058834.70294 5669 ba7fdcb97b9f81e84b82b11621183743 ""
-  "book.toc" 1758058836.16036 3771 97b18fa338ed576ada53861d3325cb99 "pdflatex"
+  "book.toc" 1758061069.2621 3771 97b18fa338ed576ada53861d3325cb99 "pdflatex"
   "sections/abstract.tex" 1758048820.81857 811 23ee9b38968743f87fb8497aefddec92 ""
   "sections/acknowledgments.tex" 1758044493.67908 184 3d2c8cafa0606ef6b6dfcd0250694b38 ""
   "sections/approval.tex" 1758044428.16547 986 4d0014f100b39dbedcfc972ca94e7bc6 ""
@@ -202,7 +204,7 @@
   "sections/performance_comparison.jpg" 1758056858.4434 722860 f770e500b39aa2a510ff6329b264be00 ""
   "sections/performance_table.jpg" 1758056862.62832 453205 678524d364536c544d2d9bf802a7289b ""
   "sections/related_work.tex" 1758029630.9942 8116 fa0ee7e7410e600e47999cdffe183ff7 ""
-  "sections/results_and_discussions.tex" 1758058291.95088 12462 9a357535f554cd313a5ef49e3bca7136 ""
+  "sections/results_and_discussions.tex" 1758061067.78879 15863 6d1455abd067e87006da1bb29b42adff ""
   "sections/roc_curves.jpg" 1758056869.35575 475278 14aaf6f8e670ee806f75f93d5443ebd2 ""
   "sections/system_architecture.tex" 1758050742.79548 11016 596f35408a40e9ba7b3d75b9d60de074 ""
   (generated)
