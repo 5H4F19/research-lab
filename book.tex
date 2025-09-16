@@ -2,6 +2,8 @@
 % Compile with: xelatex book.tex (recommended) or lualatex book.tex
 % For pdflatex, uncomment the alternative font setup below
 
+% !TeX program = pdflatex
+
 \documentclass[11pt,twoside,openright]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -24,7 +26,7 @@
 \usepackage{iftex}
 \ifXeTeX
     \usepackage{fontspec}
-    \setmainfont{C059 Roman}[
+    \setmainfont{Courier New}[
         Ligatures=TeX,
         UprightFont={C059 Roman},
         BoldFont={C059 Bold},
@@ -46,9 +48,9 @@
         \setsansfont[Scale=0.9]{Helvetica}
         \setmonofont{Courier New}
     \else
-        % Fallback for pdfLaTeX - try to use C059 package or similar
+        % Fallback for pdfLaTeX - use similar quality serif fonts
         \usepackage[T1]{fontenc}
-        \usepackage{c059}           % C059 font package for pdfLaTeX
+        \usepackage{mathptmx}       % Times-like font (similar to C059)
         \usepackage[scaled=0.9]{helvet}
         \usepackage{courier}
     \fi
@@ -70,6 +72,7 @@
 \usepackage{enumitem}
 \usepackage{framed}
 \usepackage{tcolorbox}
+\usepackage[super]{cite}
 
 % Pearson color scheme
 \definecolor{pearsonblue}{RGB}{0,91,156}
@@ -79,7 +82,7 @@
 % Pearson-style chapter formatting
 \titleformat{\chapter}[display]
 {\normalfont\sffamily\bfseries\color{pearsonblue}}
-{\huge\chaptertitlename\ \thechapter}{15pt}{\Huge\raggedright}
+{\huge\chaptertitlename\ \thechapter}{10pt}{\Huge\raggedright}
 [\vspace{10pt}\color{pearsonblue}\rule{\textwidth}{2pt}]
 
 % Pearson-style section formatting (matching reference images)
@@ -101,8 +104,8 @@
 % Set up Pearson-style headers and footers
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE]{\small\sffamily\color{pearsongray}\thepage\quad\leftmark}
-\fancyhead[RO]{\small\sffamily\color{pearsongray}\rightmark\quad\thepage}
+\fancyhead[LE]{\small\sffamily\color{pearsonblue}\thepage\quad\textbf{\leftmark}}
+\fancyhead[RO]{\small\sffamily\color{pearsonblue}\textbf{\rightmark}\quad\thepage}
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{pearsonblue}\leaders\hrule height \headrulewidth\hfill}}
 
@@ -139,108 +142,19 @@
     }
 }
 
-\title{\textcolor{pearsonblue}{\textbf{\textsf{A Multimodal Evaluation Model for \\ Improving Pedagogical Outcomes}}}}
-\author{
-    \large\textsf{Shafiqul Islam} \\
-    \normalsize\textsf{Begum Rokeya University, Rangpur}
-}
-\date{}
-
 \begin{document}
 
 \frontmatter
 \thispagestyle{empty}
 
-% Pearson-style title page
-\begin{center}
-\vspace*{2cm}
-
-{\Huge\sffamily\bfseries\color{pearsonblue}A Multimodal Evaluation Model}
-
-\vspace{0.5cm}
-
-{\Huge\sffamily\bfseries\color{pearsonblue}for Improving Pedagogical Outcomes}
-
-\vspace{3cm}
-
-{\Large\sffamily\bfseries Shafiqul Islam}
-
-\vspace{0.5cm}
-
-{\normalsize\sffamily Begum Rokeya University, Rangpur}
-
-\vfill
-
-{\large\sffamily\color{pearsongray}\textbf{Academic Textbook Series}}
-
-\vspace{1cm}
-
-\end{center}
+% Acknowledgments page
+\newpage
+\input{sections/acknowledgments.tex}
 
 \newpage
 
-% Copyright page (Pearson style)
-\thispagestyle{empty}
-\vspace*{\fill}
-\begin{flushleft}
-\small\sffamily
-\textbf{A Multimodal Evaluation Model for Improving Pedagogical Outcomes}
-
-Copyright \textcopyright\ 2025 by Shafiqul Islam
-
-All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the author.
-
-\vspace{0.5cm}
-
-\textbf{ISBN:} 978-0-XXX-XXXXX-X (Print) \\
-\textbf{ISBN:} 978-0-XXX-XXXXX-X (Digital)
-
-\vspace{0.5cm}
-
-First Edition: 2025
-
-\vspace{0.5cm}
-
-Printed in the United States of America
-\end{flushleft}
-
-\newpage
-
-\chapter*{Preface}
-\addcontentsline{toc}{chapter}{Preface}
-
-Teacher performance evaluation is a cornerstone of educational quality assurance. Traditionally, student feedback has been the primary tool for assessing teaching effectiveness, but it is often subjective and limited in scope. This book presents a comprehensive study of a novel multimodal system that objectively analyzes classroom interactions, comparing it with conventional student feedback methods.
-
-\vspace{0.5cm}
-
-\textbf{Purpose and Scope}
-
-This book aims to bridge the gap between traditional educational assessment methods and modern technological approaches. The study determines the reliability, validity, and practical impact of both conventional and innovative evaluation approaches in educational settings.
-
-\vspace{0.5cm}
-
-\textbf{Intended Audience}
-
-This book is designed for:
-\begin{itemize}[leftmargin=1em]
-    \item Researchers in educational technology and assessment
-    \item Educational administrators and policy makers
-    \item Graduate students in education and computer science
-    \item Practitioners interested in pedagogical evaluation methods
-\end{itemize}
-
-\vspace{0.5cm}
-
-\begin{tcolorbox}[pearsonbox, title=Key Topics Covered]
-\textbf{Keywords:} Teacher evaluation, multimodal system, student feedback, educational assessment, comparative study, pedagogical outcomes, classroom interaction analysis
-\end{tcolorbox}
-
-\vspace{1cm}
-
-\textit{Shafiqul Islam} \\
-Begum Rokeya University, Rangpur \\
-2025
-
+% Table of contents without extra space
+\renewcommand{\contentsname}{Contents}
 \tableofcontents
 
 \mainmatter
@@ -267,9 +181,6 @@ Present the findings of the comparative study here. Include quantitative and qua
 Summarize the main contributions and findings of the study. Discuss limitations and propose directions for future research.
 
 \backmatter
-
-\chapter*{Acknowledgments}
-(Optional) Acknowledge any funding sources, institutional support, or individuals who contributed to the research but are not listed as authors.
 
 \bibliographystyle{plain}
 \bibliography{research}

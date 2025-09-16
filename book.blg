@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: book.aux
+The style file: plain.bst
+Database file #1: research.bib
+Warning--empty chapter and pages in inbook
+You've used 31 entries,
+            2118 wiz_defined-function locations,
+            695 strings with 10182 characters,
+and the built_in function-call counts, 10781 in all, are:
+= -- 1041
+> -- 577
+< -- 6
++ -- 227
+- -- 194
+* -- 776
+:= -- 1830
+add.period$ -- 97
+call.type$ -- 31
+change.case$ -- 187
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 405
+empty$ -- 790
+format.name$ -- 194
+if$ -- 2233
+int.to.chr$ -- 0
+int.to.str$ -- 31
+missing$ -- 33
+newline$ -- 158
+num.names$ -- 64
+pop$ -- 183
+preamble$ -- 1
+purify$ -- 158
+quote$ -- 0
+skip$ -- 286
+stack$ -- 0
+substring$ -- 565
+swap$ -- 82
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 120
+warning$ -- 1
+while$ -- 100
+width$ -- 33
+write$ -- 340
+(There was 1 warning)
