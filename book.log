@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  16 SEP 2025 19:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  16 SEP 2025 20:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,7 +605,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabindent=\skip105
 \cfttabnumwidth=\skip106
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 145.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 146.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -615,20 +615,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./book.aux)
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -664,20 +664,20 @@ LaTeX Font Info:    ... okay on input line 145.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 145.
-Package microtype Info: Applying patch `item' on input line 145.
-Package microtype Info: Applying patch `toc' on input line 145.
-Package microtype Info: Applying patch `eqnum' on input line 145.
-Package microtype Info: Applying patch `footnote' on input line 145.
-Package microtype Info: Applying patch `verbatim' on input line 145.
-LaTeX Info: Redefining \microtypesetup on input line 145.
+LaTeX Info: Redefining \microtypecontext on input line 146.
+Package microtype Info: Applying patch `item' on input line 146.
+Package microtype Info: Applying patch `toc' on input line 146.
+Package microtype Info: Applying patch `eqnum' on input line 146.
+Package microtype Info: Applying patch `footnote' on input line 146.
+Package microtype Info: Applying patch `verbatim' on input line 146.
+LaTeX Info: Redefining \microtypesetup on input line 146.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 145.
+LaTeX Info: Redefining \showhyphens on input line 146.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -715,14 +715,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 2.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 22.39185pt on input line 2.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 2.
-)
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 157.
- (./book.toc
+) (./book.toc
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.85492pt on input line 1.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 1.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -758,9 +757,6 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 3.
-
 
 [1
 
@@ -772,12 +768,16 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 
 
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 161.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 160.
+(Font)              scaled to size 8.99994pt on input line 161.
 [2]
 Chapter 1.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 15.55188pt on input line 163.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 162.
+(Font)              scaled to size 15.55188pt on input line 163.
 (./sections/introduction.tex
 
 [1
@@ -790,8 +790,6 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
 
 [2]
-
-[3]
 Chapter 2.
 (./sections/related_work.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -799,151 +797,154 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 3.
 
+Underfull \vbox (badness 1383) has occurred while \output is active []
 
-[4
+
+
+[3
 
 ]
 
-[5])
+[4])
+
+[5]
 
 [6]
-
-[7]
 Chapter 3.
 (./sections/methodology.tex
 
-[8
+[7
 
 ]
+
+[8]
 
 [9]
 
 [10]
 
-[11]
+[11])
 
-[12])
-
-[13]
+[12]
 Chapter 4.
 (./sections/experimental_setup.tex
 
-[14
+[13
 
 ])
 
-[15]
+[14]
 Chapter 5.
 (./sections/system_architecture.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[16
+[15
 
 ]
 
-[17]
+[16]
 
-[18]
-Underfull \hbox (badness 2197) in paragraph at lines 131--132
+[17]
+Underfull \hbox (badness 2197) in paragraph at lines 129--130
 []\T1/ptm/m/n/10.95 (+20) Meets ex-pec-ta-tions in most ar-eas; some
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []\T1/ptm/m/n/10.95 (+20) Needs Im-
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 159--159
+Underfull \hbox (badness 2351) in paragraph at lines 157--157
 []\T1/ptm/m/n/10.95 (+20) Frontal stance, head pose
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 165--165
+Underfull \hbox (badness 4686) in paragraph at lines 163--163
 []\T1/ptm/m/n/10.95 (+20) Movement be-tween zones
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 []\T1/ptm/m/n/10.95 (+20) Discourse co-her-ence,
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 166--167
+Underfull \hbox (badness 3179) in paragraph at lines 164--165
 \T1/ptm/m/n/10.95 (+20) topic struc-ture, tran-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []\T1/ptm/b/n/10.95 (+20) Emotional Cli-
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 187--187
+Underfull \hbox (badness 1701) in paragraph at lines 185--185
 []\T1/ptm/b/n/10.95 (+20) Cognitive Ac-ti-va-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 []\T1/ptm/m/n/10.95 (+20) Bloom's Tax-on-omy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 \T1/ptm/m/n/10.95 (+20) ques-tion com-plex-ity
  []
 
 
-Overfull \hbox (98.0011pt too wide) in paragraph at lines 146--194
+Overfull \hbox (98.0011pt too wide) in paragraph at lines 144--192
  [][] 
  []
 
 )
 
-[19]
+[18]
 
-[20]
+[19]
 Chapter 6.
 
 
-[21
+[20
 
 ]
 Chapter 7.
 
 
-[22
+[21
 
 ] (./book.bbl
 
-[23
+[22
 
 
 ]
 
-[24])
+[23])
 
-[25] (./book.aux)
+[24] (./book.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24080 strings out of 473190
- 500094 string characters out of 5715800
- 924438 words of memory out of 5000000
- 46608 multiletter control sequences out of 15000+600000
- 623834 words of font info for 279 fonts, out of 8000000 for 9000
+ 24091 strings out of 473190
+ 500200 string characters out of 5715800
+ 924417 words of memory out of 5000000
+ 46610 multiletter control sequences out of 15000+600000
+ 626974 words of font info for 285 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,15n,107p,1101b,1030s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on book.pdf (27 pages, 126971 bytes).
+Output written on book.pdf (26 pages, 126997 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 75277 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 79373 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -79,11 +79,12 @@
 \definecolor{pearsongray}{RGB}{88,89,91}
 \definecolor{pearsonlightblue}{RGB}{230,242,250}
 
-% Pearson-style chapter formatting
+% Pearson-style chapter formatting (only 'CHAPTER n.' bold)
 \titleformat{\chapter}[display]
-{\normalfont\sffamily\bfseries\color{pearsonblue}}
-{\huge\chaptertitlename\ \thechapter}{10pt}{\Huge\raggedright}
-[\vspace{10pt}\color{pearsonblue}\rule{\textwidth}{2pt}]
+  {\normalfont\sffamily\color{pearsonblue}}
+  {\LARGE\textbf{\chaptertitlename\ \thechapter} \MakeUppercase{}}
+  {0pt}{\Huge\sffamily\color{pearsonblue}}[
+  \vspace{10pt}\color{pearsonblue}\rule{\textwidth}{2pt}]
 
 % Pearson-style section formatting (matching reference images)
 \titleformat{\section}
@@ -117,8 +118,8 @@
 \usepackage{tocloft}
 \renewcommand{\cfttoctitlefont}{\Huge\sffamily\bfseries\color{pearsonblue}}
 \renewcommand{\cftchapfont}{\sffamily\bfseries\color{pearsonblue}}
-\renewcommand{\cftsecfont}{\sffamily}
-\renewcommand{\cftsubsecfont}{\sffamily\small}
+\renewcommand{\cftsecfont}{\rmfamily}
+\renewcommand{\cftsubsecfont}{\rmfamily\small}
 
 % Enhanced caption styling
 \captionsetup{
