@@ -13,48 +13,46 @@
 \contentsline {subsection}{\numberline {5.3}Data Collection Methods}{12}{}%
 \contentsline {subsubsection}{Student Feedback Instruments}{12}{}%
 \contentsline {subsubsection}{Multimodal System Components}{13}{}%
-\contentsline {subsection}{\numberline {5.4}Data Processing and Feature Extraction}{13}{}%
-\contentsline {subsubsection}{Audio Data Processing}{13}{}%
+\contentsline {subsection}{\numberline {5.4}Data Processing and Feature Extraction}{14}{}%
+\contentsline {subsubsection}{Audio Data Processing}{14}{}%
 \contentsline {subsubsection}{Visual Data Analysis}{14}{}%
 \contentsline {subsubsection}{Linguistic and Discourse Analysis}{15}{}%
 \contentsline {subsubsection}{Student Feedback Processing}{15}{}%
-\contentsline {subsection}{\numberline {5.5}Evaluation Metrics}{15}{}%
-\contentsline {subsection}{\numberline {5.6}Ethical Considerations}{16}{}%
-\contentsline {chapter}{\numberline {6}Experimental Setup}{17}{}%
-\contentsline {subsection}{\numberline {6.1}Classroom Environment}{17}{}%
-\contentsline {subsection}{\numberline {6.2}Hardware and Software}{17}{}%
-\contentsline {subsection}{\numberline {6.3}Data Collection Procedure}{18}{}%
-\contentsline {subsection}{\numberline {6.4}Dataset Overview}{18}{}%
-\contentsline {chapter}{\numberline {7}System Architecture}{19}{}%
-\contentsline {subsection}{\numberline {7.1}Video Stream pipeline}{19}{}%
-\contentsline {subsection}{\numberline {7.2}Audio Stream pipeline}{19}{}%
-\contentsline {subsection}{\numberline {7.3}Text Stream pipeline}{20}{}%
-\contentsline {subsection}{\numberline {7.4}Multimodal Fusion and Classification}{21}{}%
-\contentsline {subsection}{\numberline {7.5}System Output and Classification}{21}{}%
-\contentsline {chapter}{\numberline {8}Results and Discussion}{24}{}%
-\contentsline {subsection}{\numberline {8.1}Individual Modality Analysis}{25}{}%
-\contentsline {subsubsection}{Visual Features Performance}{25}{}%
-\contentsline {subsubsection}{Audio Features Performance}{26}{}%
-\contentsline {subsubsection}{Linguistic Features Performance}{26}{}%
-\contentsline {subsection}{\numberline {8.2}Multimodal Integration Results}{27}{}%
-\contentsline {subsection}{\numberline {8.3}Cross-Validation Analysis}{28}{}%
-\contentsline {subsection}{\numberline {8.4}Feature Scaling and Model Performance}{29}{}%
-\contentsline {subsection}{\numberline {8.5}Model Discrimination Capability}{30}{}%
-\contentsline {subsection}{\numberline {8.6}Confusion Matrix Analysis}{31}{}%
-\contentsline {subsection}{\numberline {8.7}Algorithm Comparison}{31}{}%
-\contentsline {subsection}{\numberline {8.8}Statistical Significance and Effect Size}{32}{}%
-\contentsline {subsection}{\numberline {8.9}Practical Implications}{32}{}%
-\contentsline {subsubsection}{Comprehensive Assessment Framework}{32}{}%
-\contentsline {subsubsection}{Automated Quality Assurance}{33}{}%
-\contentsline {subsubsection}{Pedagogical Feedback Mechanisms}{33}{}%
-\contentsline {subsubsection}{Scalability Considerations}{33}{}%
-\contentsline {subsection}{\numberline {8.10}Key Findings Summary}{33}{}%
-\contentsline {chapter}{\numberline {9}Conclusion and Future Work}{35}{}%
-\contentsline {subsection}{\numberline {9.1}Limitations}{36}{}%
-\contentsline {subsection}{\numberline {9.2}Future Work}{36}{}%
-\contentsline {subsubsection}{From Binary to Multiclass Evaluation}{36}{}%
-\contentsline {subsubsection}{Scaling Data and Labeling Efficiency}{36}{}%
-\contentsline {subsubsection}{Temporal and Multimodal Representation Learning}{36}{}%
-\contentsline {subsubsection}{Reliability, Fairness, and Privacy}{37}{}%
-\contentsline {subsubsection}{Toward Real-World Use}{37}{}%
-\contentsline {subsection}{\numberline {9.3}Closing Remarks}{37}{}%
+\contentsline {subsection}{\numberline {5.5}System architecture}{15}{}%
+\contentsline {subsubsection}{Video Stream pipeline}{15}{}%
+\contentsline {subsubsection}{Audio Stream pipeline}{16}{}%
+\contentsline {subsubsection}{Text Stream pipeline}{17}{}%
+\contentsline {subsubsection}{Multimodal Fusion and Classification}{17}{}%
+\contentsline {subsubsection}{System Output and Classification}{19}{}%
+\contentsline {subsection}{\numberline {5.6}Evaluation Metrics}{19}{}%
+\contentsline {subsection}{\numberline {5.7}Ethical Considerations}{20}{}%
+\contentsline {chapter}{\numberline {6}Experimental Setup}{21}{}%
+\contentsline {subsection}{\numberline {6.1}Classroom Environment}{21}{}%
+\contentsline {subsection}{\numberline {6.2}Hardware and Software}{21}{}%
+\contentsline {subsection}{\numberline {6.3}Data Collection Procedure}{22}{}%
+\contentsline {subsection}{\numberline {6.4}Dataset Overview}{22}{}%
+\contentsline {chapter}{\numberline {7}Results and Discussion}{23}{}%
+\contentsline {subsection}{\numberline {7.1}Individual Modality Analysis}{24}{}%
+\contentsline {subsubsection}{Visual Features Performance}{24}{}%
+\contentsline {subsubsection}{Audio Features Performance}{25}{}%
+\contentsline {subsubsection}{Linguistic Features Performance}{25}{}%
+\contentsline {subsection}{\numberline {7.2}Multimodal Integration Results}{26}{}%
+\contentsline {subsection}{\numberline {7.3}Cross-Validation Analysis}{27}{}%
+\contentsline {subsection}{\numberline {7.4}Feature Scaling and Model Performance}{28}{}%
+\contentsline {subsection}{\numberline {7.5}Model Discrimination Capability}{29}{}%
+\contentsline {subsection}{\numberline {7.6}Confusion Matrix Analysis}{30}{}%
+\contentsline {subsection}{\numberline {7.7}Algorithm Comparison}{30}{}%
+\contentsline {subsection}{\numberline {7.8}Statistical Significance and Effect Size}{31}{}%
+\contentsline {subsection}{\numberline {7.9}Practical Implications}{31}{}%
+\contentsline {subsubsection}{Comprehensive Assessment Framework}{31}{}%
+\contentsline {subsubsection}{Automated Quality Assurance}{32}{}%
+\contentsline {subsubsection}{Pedagogical Feedback Mechanisms}{32}{}%
+\contentsline {subsubsection}{Scalability Considerations}{32}{}%
+\contentsline {subsection}{\numberline {7.10}Key Findings Summary}{32}{}%
+\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{34}{}%
+\contentsline {subsection}{\numberline {8.1}Limitations}{35}{}%
+\contentsline {subsection}{\numberline {8.2}Future Work}{35}{}%
+\contentsline {subsubsection}{From Binary to Multiclass Evaluation}{35}{}%
+\contentsline {subsubsection}{Scaling Data and Labeling Efficiency}{35}{}%
+\contentsline {subsubsection}{Toward Real-World Use}{35}{}%
+\contentsline {subsection}{\numberline {8.3}Closing Remarks}{36}{}%

@@ -7,15 +7,6 @@ The study will be conducted in a real-world classroom setting, focusing on highe
 The research will utilize a combination of quantitative and qualitative data collection methods, including standardized surveys, audio-visual recordings, and discourse analysis \cite{dmello2012multimodal, ochoa2016multimodal}. The quantitative data will be analyzed using statistical techniques to identify correlations and patterns, while qualitative data will undergo thematic analysis to extract meaningful insights.
 The study will also incorporate a longitudinal component, allowing for the examination of changes in teaching effectiveness over time. By collecting data at multiple points throughout the semester, the research aims to capture the dynamic nature of teaching and learning processes.
 
-The primary research questions guiding this study are:
-
-\begin{enumerate}
-    \item To what extent do multimodal evaluations correlate with traditional student feedback?
-    \item Which aspects of teaching effectiveness are captured more accurately by each evaluation method?
-    \item How can multimodal systems complement student feedback to provide a more comprehensive evaluation?
-    \item What are the practical implications of incorporating multimodal evaluations in institutional assessment frameworks?
-\end{enumerate}
-
 \begin{table}[H]
     \normalsize
     \centering
@@ -41,15 +32,7 @@ Student evaluators will include all enrolled students in the selected course sec
 \subsection{Data Collection Methods}
 
 \subsubsection{Student Feedback Instruments}
-Traditional evaluation data will be collected using two complementary instruments:
-
-\begin{itemize}
-    \item A standardized quantitative evaluation form using a 5-point Likert scale covering seven dimensions of teaching effectiveness (clarity, organization, engagement, assessment, feedback, accessibility, and overall effectiveness)
-    \item Open-ended qualitative questions eliciting specific comments on teaching strengths, areas for improvement, and notable classroom experiences
-\end{itemize}
-
-\subsubsection{Multimodal System Components}
-The multimodal evaluation system integrates data from three primary sources, as illustrated in Figure \ref{fig:multimodal_components}:
+Traditional evaluation data will be collected using two complementary instruments. First, a standardized quantitative evaluation form using a 5-point Likert scale covering seven dimensions of teaching effectiveness: clarity, organization, engagement, assessment, feedback, accessibility, and overall effectiveness. Second, open-ended qualitative questions eliciting specific comments on teaching strengths, areas for improvement, and notable classroom experiences.
 
 \begin{figure}[H]
     \centering
@@ -80,6 +63,12 @@ The multimodal evaluation system integrates data from three primary sources, as 
     \label{fig:multimodal_components}
 \end{figure}
 
+
+\subsubsection{Multimodal System Components}
+The multimodal evaluation system integrates data from three primary sources, as illustrated in Figure \ref{fig:multimodal_components}. The audio module captures speech dynamics using directional microphones positioned strategically in the classroom, extracting features related to vocal variety, speech clarity, and emotional tone. The visual module employs two wide-angle cameras placed at the front and rear to capture teacher movements, gestures, and interactions with students, while a deep learning-based pose estimation algorithm tracks key behavioral indicators. The discourse module applies natural language processing techniques to analyze transcribed classroom dialogue, identifying patterns of instruction, questioning techniques, and feedback quality. Data collection for both the traditional evaluation and multimodal system occurs simultaneously during the same teaching sessions to ensure valid comparisons.
+
+
+
 \begin{enumerate}
     \item \textbf{Audio Module:} Captures speech dynamics using directional microphones positioned strategically in the classroom. The system extracts features related to vocal variety, speech clarity, and emotional tone.
     
@@ -89,6 +78,7 @@ The multimodal evaluation system integrates data from three primary sources, as 
 \end{enumerate}
 
 Data collection will occur simultaneously for both evaluation methods during the same teaching sessions to ensure valid comparisons.
+
 
 \subsection{Data Processing and Feature Extraction}
 
@@ -162,32 +152,12 @@ Classroom dialogue will be transcribed automatically using speech-to-text techno
 \subsubsection{Student Feedback Processing}
 Quantitative feedback will be analyzed using descriptive and inferential statistics, while qualitative comments will undergo thematic analysis using a dual-coding approach to identify emergent patterns. NLP techniques will also be applied to extract sentiment and topical focus from written comments.
 
+\subsection{System architecture}
+\input{sections/system_architecture.tex}
+
 \subsection{Evaluation Metrics}
 The comparative analysis will employ the following metrics to assess the relationship between traditional and multimodal evaluations:
 
-\begin{table}[t]
-    \centering
-    \normalsize
-    \caption{Evaluation Dimensions and Corresponding Metrics}
-    \label{tab:metrics}
-    \begin{tabular}{lcc}
-        \toprule
-        \textbf{Dimension} & \textbf{Student Feedback Metric} & \textbf{Multimodal Metric} \\
-        \midrule
-        Engagement & Likert rating (1-5) & Interaction frequency + \\
-         & & Voice animation index \\
-        \midrule
-        Clarity & Likert rating (1-5) & Speech rate + Pause ratio + \\
-         & & Example frequency \\
-        \midrule
-        Organization & Likert rating (1-5) & Topic coherence score + \\
-         & & Transition clarity index \\
-        \midrule
-        Responsiveness & Likert rating (1-5) & Response time + \\
-         & & Student engagement rate \\
-        \bottomrule
-    \end{tabular}
-\end{table}
 
 Statistical analyses will include:
 \begin{itemize}

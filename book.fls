@@ -369,11 +369,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT ./sections/introduction.tex
 INPUT ./sections/introduction.tex
 INPUT sections/introduction.tex
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -404,12 +401,12 @@ INPUT sections/methodology.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT ./sections/experimental_setup.tex
-INPUT ./sections/experimental_setup.tex
-INPUT sections/experimental_setup.tex
 INPUT ./sections/system_architecture.tex
 INPUT ./sections/system_architecture.tex
 INPUT sections/system_architecture.tex
+INPUT ./sections/experimental_setup.tex
+INPUT ./sections/experimental_setup.tex
+INPUT sections/experimental_setup.tex
 INPUT ./sections/results_and_discussions.tex
 INPUT ./sections/results_and_discussions.tex
 INPUT sections/results_and_discussions.tex
