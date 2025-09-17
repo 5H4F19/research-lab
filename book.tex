@@ -99,7 +99,7 @@
 % Remove middle zero from subsection numbering (6.0.1 -> 6.1)
 \renewcommand{\thesubsection}{\thechapter.\arabic{subsection}}
 
-% Subsubsection formatting
+% Subsubsection formatting 
 \titleformat{\subsubsection}
 {\normalfont\normalsize\sffamily\bfseries}
 {\thesubsubsection}{1em}{}
@@ -118,6 +118,16 @@
 
 % Pearson-style table of contents
 \usepackage{tocloft}
+% Custom List of Figures: 'Fig. <number>: <caption>' on one line
+\renewcommand{\cftfigpresnum}{Fig.~}
+\renewcommand{\cftfigaftersnum}{:}
+\renewcommand{\cftfigfont}{\normalfont}
+\renewcommand{\cftfignumwidth}{4em}
+\setlength{\cftfigindent}{0pt}
+
+% Prevent line breaks in List of Figures
+\renewcommand{\cftfigpagefont}{\normalfont}
+\renewcommand{\cftfigafterpnum}{\cftparfillskip}
 \renewcommand{\cfttoctitlefont}{\Huge\sffamily\bfseries\color{pearsonblue}}
 \renewcommand{\cftchapfont}{\sffamily\bfseries\color{pearsonblue}}
 \renewcommand{\cftsecfont}{\rmfamily}
@@ -175,12 +185,28 @@
 \input{sections/acknowledgments.tex}
 \input{sections/abstract.tex}
 
+
 % Table of contents without extra space or extra page
 \newpage
 \renewcommand{\contentsname}{Contents}
 {\let\oldchapter\chapter
 \renewcommand{\chapter}[1]{}
 \tableofcontents
+\renewcommand{\chapter}{\oldchapter}}
+
+% Pearson-style List of Figures and Tables (unnumbered chapters, styled like TOC)
+\newpage
+\renewcommand{\contentsname}{List of Figures}
+{\let\oldchapter\chapter
+\renewcommand{\chapter}[1]{}
+\listoffigures
+\renewcommand{\chapter}{\oldchapter}}
+
+\newpage
+\renewcommand{\contentsname}{List of Tables}
+{\let\oldchapter\chapter
+\renewcommand{\chapter}[1]{}
+\listoftables
 \renewcommand{\chapter}{\oldchapter}}
 
 

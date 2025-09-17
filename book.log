@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  17 SEP 2025 20:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  18 SEP 2025 04:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -623,7 +623,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabindent=\skip107
 \cfttabnumwidth=\skip108
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 166.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 176.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -633,20 +633,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./book.aux)
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -682,20 +682,20 @@ LaTeX Font Info:    ... okay on input line 166.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 166.
-Package microtype Info: Applying patch `item' on input line 166.
-Package microtype Info: Applying patch `toc' on input line 166.
-Package microtype Info: Applying patch `eqnum' on input line 166.
-Package microtype Info: Applying patch `footnote' on input line 166.
-Package microtype Info: Applying patch `verbatim' on input line 166.
-LaTeX Info: Redefining \microtypesetup on input line 166.
+LaTeX Info: Redefining \microtypecontext on input line 176.
+Package microtype Info: Applying patch `item' on input line 176.
+Package microtype Info: Applying patch `toc' on input line 176.
+Package microtype Info: Applying patch `eqnum' on input line 176.
+Package microtype Info: Applying patch `footnote' on input line 176.
+Package microtype Info: Applying patch `verbatim' on input line 176.
+LaTeX Info: Redefining \microtypesetup on input line 176.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 166.
+LaTeX Info: Redefining \showhyphens on input line 176.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -743,18 +743,18 @@ Package pdftex.def Info: sections/logo.jpg  used on input line 9.
 [4])
 
 [5]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 183.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 194.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 183.
+(Font)              scaled to size 22.39185pt on input line 194.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 183.
+(Font)              scaled to size 22.39185pt on input line 194.
  (./book.toc
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 1.
@@ -802,16 +802,28 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 
-[7]
+[7] (./book.lof)
+\tf@lof=\write5
+\openout5 = `book.lof'.
 
-[8
+
+
+[8] (./book.lot)
+\tf@lot=\write6
+\openout6 = `book.lot'.
+
+
+
+[9]
+
+[10
 
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 190.
+(Font)              scaled to size 15.55188pt on input line 216.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 190.
+(Font)              scaled to size 15.55188pt on input line 216.
 (./sections/introduction.tex
 
 [1
@@ -823,9 +835,9 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 192.
+(Font)              scaled to size 8.99994pt on input line 218.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 192.
+(Font)              scaled to size 8.99994pt on input line 218.
 [2]
 
 [3]
@@ -915,7 +927,7 @@ Chapter 7.
 
 LaTeX Warning: Reference `tab:performance_table' on page 24 undefined on input line 11.
 
-<sections/performance_table.jpg, id=111, 1089.8316pt x 491.6769pt>
+<sections/performance_table.jpg, id=117, 1089.8316pt x 491.6769pt>
 File: sections/performance_table.jpg Graphic file (type jpg)
 <use sections/performance_table.jpg>
 Package pdftex.def Info: sections/performance_table.jpg  used on input line 16.
@@ -923,7 +935,7 @@ Package pdftex.def Info: sections/performance_table.jpg  used on input line 16.
 
 
 [24 <./sections/performance_table.jpg>]
-<sections/performance_comparison.jpg, id=115, 1076.3412pt x 858.5676pt>
+<sections/performance_comparison.jpg, id=121, 1076.3412pt x 858.5676pt>
 File: sections/performance_comparison.jpg Graphic file (type jpg)
 <use sections/performance_comparison.jpg>
 Package pdftex.def Info: sections/performance_comparison.jpg  used on input line 49.
@@ -933,12 +945,12 @@ Package pdftex.def Info: sections/performance_comparison.jpg  used on input line
 [25]
 
 [26 <./sections/performance_comparison.jpg>]
-<sections/cross_validation_comparison.jpg, id=122, 1076.3412pt x 425.6703pt>
+<sections/cross_validation_comparison.jpg, id=128, 1076.3412pt x 425.6703pt>
 File: sections/cross_validation_comparison.jpg Graphic file (type jpg)
 <use sections/cross_validation_comparison.jpg>
 Package pdftex.def Info: sections/cross_validation_comparison.jpg  used on input line 67.
 (pdftex.def)             Requested size: 415.5525pt x 164.34148pt.
-<sections/feature_count_vs_performance.jpg, id=123, 1076.3412pt x 858.5676pt>
+<sections/feature_count_vs_performance.jpg, id=129, 1076.3412pt x 858.5676pt>
 File: sections/feature_count_vs_performance.jpg Graphic file (type jpg)
 <use sections/feature_count_vs_performance.jpg>
 Package pdftex.def Info: sections/feature_count_vs_performance.jpg  used on input line 78.
@@ -946,7 +958,7 @@ Package pdftex.def Info: sections/feature_count_vs_performance.jpg  used on inpu
 
 
 [27 <./sections/cross_validation_comparison.jpg>]
-<sections/roc_curves.jpg, id=127, 1076.3412pt x 425.1885pt>
+<sections/roc_curves.jpg, id=134, 1076.3412pt x 425.1885pt>
 File: sections/roc_curves.jpg Graphic file (type jpg)
 <use sections/roc_curves.jpg>
 Package pdftex.def Info: sections/roc_curves.jpg  used on input line 89.
@@ -954,7 +966,7 @@ Package pdftex.def Info: sections/roc_curves.jpg  used on input line 89.
 
 
 [28 <./sections/feature_count_vs_performance.jpg>]
-<sections/confusion_matrices.jpg, id=131, 1428.7779pt x 714.2685pt>
+<sections/confusion_matrices.jpg, id=138, 1428.7779pt x 714.2685pt>
 File: sections/confusion_matrices.jpg Graphic file (type jpg)
 <use sections/confusion_matrices.jpg>
 Package pdftex.def Info: sections/confusion_matrices.jpg  used on input line 106.
@@ -999,18 +1011,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24430 strings out of 473190
- 506808 string characters out of 5715800
- 926256 words of memory out of 5000000
- 46837 multiletter control sequences out of 15000+600000
- 641159 words of font info for 343 fonts, out of 8000000 for 9000
+ 24455 strings out of 473190
+ 507081 string characters out of 5715800
+ 926267 words of memory out of 5000000
+ 46847 multiletter control sequences out of 15000+600000
+ 644216 words of font info for 349 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,13n,107p,1646b,1030s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on book.pdf (47 pages, 3452333 bytes).
+Output written on book.pdf (49 pages, 3454483 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
+ 205 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 95792 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 99888 words of extra memory for PDF output out of 106986 (max. 10000000)
 

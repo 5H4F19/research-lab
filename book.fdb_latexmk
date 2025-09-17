@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex book"] 1758116470.23098 "book.aux" "book.bbl" "book" 1758119214.94764 0
+["bibtex book"] 1758124940.77652 "book.aux" "book.bbl" "book" 1758146673.50891 0
   "./research.bib" 1752814779.20635 17137 0362da7d45453d74d2322e7249fd34e6 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "book.aux" 1758119214.68296 14746 122014daea9ba4b39289a71e1aad4c0a "pdflatex"
+  "book.aux" 1758146673.19563 14746 f8576d4e36befe18be71525e5303cb26 "pdflatex"
   (generated)
   "book.bbl"
   "book.blg"
   (rewritten before read)
-["pdflatex"] 1758119213.46738 "/Users/shafiq/Projects/Codes/latex/research/book.tex" "book.pdf" "book" 1758119214.9478 0
-  "/Users/shafiq/Projects/Codes/latex/research/book.tex" 1758111631.80128 6125 305d20fb4331a1ef81e9e3e527f8426d ""
+["pdflatex"] 1758146671.63189 "/Users/shafiq/Projects/Codes/latex/research/book.tex" "book.pdf" "book" 1758146673.50909 0
+  "/Users/shafiq/Projects/Codes/latex/research/book.tex" 1758146373.45905 6912 667998de748b731c0fead29431141018 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -191,10 +191,12 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745051200 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745051155 3345741 fb32dcdd18fbbdda7cc127d3dcd3fa79 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "book.aux" 1758119214.68296 14746 122014daea9ba4b39289a71e1aad4c0a "pdflatex"
-  "book.bbl" 1758116470.33714 7660 0f01435baf0b3eb7f58c18cc67ae08ad "bibtex book"
-  "book.tex" 1758111631.80128 6125 305d20fb4331a1ef81e9e3e527f8426d ""
-  "book.toc" 1758119214.68458 4178 95ea5e7aefa0a33fd35eecb30a050305 "pdflatex"
+  "book.aux" 1758146673.19563 14746 f8576d4e36befe18be71525e5303cb26 "pdflatex"
+  "book.bbl" 1758124940.87939 7660 0f01435baf0b3eb7f58c18cc67ae08ad "bibtex book"
+  "book.lof" 1758146673.19762 2318 dcd9d2ec781cead145fae492f33d5daf "pdflatex"
+  "book.lot" 1758146673.19765 728 161c207771bd1c83cea7dcfe4716cea3 "pdflatex"
+  "book.tex" 1758146373.45905 6912 667998de748b731c0fead29431141018 ""
+  "book.toc" 1758146673.19746 4178 95ea5e7aefa0a33fd35eecb30a050305 "pdflatex"
   "sections/abstract.tex" 1758119213.26066 1578 20ec4352264821fdc1005cecfa46240d ""
   "sections/acknowledgments.tex" 1758092149.56277 492 5371214c57f8eedb3da6bbca624216af ""
   "sections/approval.tex" 1758092113.32317 807 9cd85c0962ec16cec2a27b07e858b287 ""
@@ -215,10 +217,12 @@
   "sections/results_and_discussions.tex" 1758061730.61455 17234 6b2819c4192c7740a66ea11f72608187 ""
   "sections/roc_curves.jpg" 1758056869.35575 475278 14aaf6f8e670ee806f75f93d5443ebd2 ""
   "sections/system_architecture.tex" 1758115610.94245 10919 7a489008b77c8c97d754134734951bf4 ""
-  "sections/titlepage.tex" 1758091353.41873 1083 4fa4e519288617d3c67249fb5520740f ""
+  "sections/titlepage.tex" 1758146671.38629 1204 d83a27f06934288ca03280938919f206 ""
   (generated)
   "book.aux"
+  "book.lof"
   "book.log"
+  "book.lot"
   "book.pdf"
   "book.toc"
   (rewritten before read)
