@@ -1,4 +1,3 @@
-% Compile with: xelatex book.tex (recommended) or lualatex book.tex
 % For pdflatex, uncomment the alternative font setup below
 
 % !TeX program = pdflatex
@@ -153,7 +152,16 @@
     }
 }
 
-\newcommand{\projectTitle}{A novel approach to evaluate pedagogical outcomes using audio, video, and linguistic analysis}
+% Thesis information
+\newcommand{\projectTitle}{A novel approach to evaluate pedagogical outcomes using multimodal data}
+\newcommand{\theauthor}{Md. Shafiqul Islam}
+\newcommand{\thedegree}{Bachelor of Science}
+\newcommand{\themajor}{Computer Science and Engineering}
+\newcommand{\thesupervisor}{ Dr. Md. Mizanur Rahoman}
+\newcommand{\thesupervisortitle}{Professor}
+\newcommand{\thedepartment}{Department of Computer Science and Engineering}
+\newcommand{\theuniversity}{Begum Rokeya University, Rangpur}
+\newcommand{\theyear}{2025}
 
 \begin{document}
 \raggedbottom
@@ -161,6 +169,7 @@
 \frontmatter
 \pagestyle{plain} % Disable headers for frontmatter (before TOC)
 
+\input{sections/titlepage.tex}
 \input{sections/originality.tex}
 \input{sections/approval.tex}
 \input{sections/acknowledgments.tex}
@@ -180,6 +189,12 @@
 
 \chapter{Introduction}
 \input{sections/introduction.tex}
+
+\chapter{Problem Statement}
+\input{sections/problem.tex}
+
+\chapter{Background}
+\input{sections/background.tex}
 
 \chapter{Related Work}
 \input{sections/related_work.tex}
