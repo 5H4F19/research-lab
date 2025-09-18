@@ -8,15 +8,13 @@ The demonstrated synergistic effects between modalities, enhanced model stabilit
 
 This section presents the comprehensive evaluation of the proposed multimodal approach for pedagogical assessment. The analysis compares the performance of individual modalities (visual, audio, and linguistic) against the combined multimodal approach using two machine learning algorithms: Logistic Regression and Support Vector Machine (SVM).
 
-The experimental results demonstrate a clear superiority of the multimodal approach over individual modality-based assessments. Table~\ref{tab:performance_table} presents the comprehensive performance metrics across all tested configurations.
-
-
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{sections/performance_table.jpg}
-    \caption{Comprehensive Performance Comparison Table showing accuracy, precision, recall, F1-score, cross-validation means and standard deviations across all modality combinations and algorithms.}
+    \includegraphics[width=1\textwidth]{sections/performance_table.jpeg}
+    \caption{Comprehensive Performance Comparison Table}
     \label{fig:performance_table}
 \end{figure}
+The experimental results demonstrate a clear superiority of the multimodal approach over individual modality-based assessments. Table~\ref{fig:performance_table} presents the comprehensive performance metrics across all tested configurations.
 
 The combined multimodal approach achieved the highest accuracy of 71.33\% using Logistic Regression, representing a substantial improvement over individual modalities. This finding strongly supports the central thesis that integrating multiple data sources provides a more comprehensive and accurate assessment of pedagogical outcomes.
 
@@ -47,7 +45,7 @@ The consistently strong performance across both algorithms establishes linguisti
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{sections/performance_comparison.jpg}
-    \caption{Performance comparison across all modalities and algorithms. The combined multimodal approach consistently outperforms individual modalities across all evaluation metrics (accuracy, precision, recall, and F1-score).}
+    \caption{Performance comparison across all modalities and algorithms.}
     \label{fig:performance_comparison}
 \end{figure}
 
@@ -65,7 +63,7 @@ These improvements can be attributed to the complementary nature of different mo
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{sections/cross_validation_comparison.jpg}
-    \caption{Cross-validation accuracy results with error bars showing standard deviation. The multimodal approach demonstrates superior performance stability across both algorithms with reduced variance.}
+    \caption{Cross-validation accuracy results}
     \label{fig:cross_validation}
 \end{figure}
 
@@ -76,7 +74,7 @@ Cross-validation results provide robust evidence of the multimodal approach's su
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{sections/feature_count_vs_performance.jpg}
-    \caption{Relationship between feature count and model performance. The multimodal approach (43 features) demonstrates optimal performance gains, suggesting effective feature complementarity rather than mere feature accumulation.}
+    \caption{Feature count vs. model performance showing multimodal synergy beyond simple feature accumulation.}
     \label{fig:feature_scaling}
 \end{figure}
 
@@ -87,8 +85,7 @@ The analysis reveals that performance improvements are not merely due to increas
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{sections/roc_curves.jpg}
-    \caption{ROC curves comparing discrimination capability across modalities. The multimodal approach achieves the highest AUC values (0.796 for Logistic Regression, 0.789 for SVM), demonstrating superior classification performance.}
-    \label{fig:roc_curves}
+    \caption{ROC curves comparing discrimination capability across modalities.}\label{fig:roc_curves}
 \end{figure}
 
 ROC curve analysis demonstrates the superior discrimination capability of the multimodal approach. The Area Under Curve (AUC) values confirm the ranking observed in accuracy metrics:
@@ -104,8 +101,7 @@ ROC curve analysis demonstrates the superior discrimination capability of the mu
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{sections/confusion_matrices.jpg}
-    \caption{Confusion matrices for all model-modality combinations. The multimodal approaches show improved balance between precision and recall, with reduced false negative rates critical for pedagogical assessment applications.}
-    \label{fig:confusion_matrices}
+    \caption{Confusion matrices for all model-modality combinations.} \label{fig:confusion_matrices}
 \end{figure}
 
 Confusion matrix analysis reveals that multimodal approaches achieve better balance between precision and recall. Notably, the reduction in false negatives is particularly important for pedagogical assessment, as failing to identify quality teaching practices could have significant educational implications.

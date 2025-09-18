@@ -12,20 +12,20 @@
 \contentsline {subsection}{\numberline {5.2}Participants and Sampling}{12}{}%
 \contentsline {subsection}{\numberline {5.3}Data Collection Methods}{12}{}%
 \contentsline {subsubsection}{Student Feedback Instruments}{12}{}%
-\contentsline {subsubsection}{Multimodal System Components}{13}{}%
-\contentsline {subsection}{\numberline {5.4}Data Processing and Feature Extraction}{14}{}%
-\contentsline {subsubsection}{Audio Data Processing}{14}{}%
+\contentsline {subsubsection}{Multimodal System Components}{12}{}%
+\contentsline {subsection}{\numberline {5.4}Data Processing and Feature Extraction}{13}{}%
+\contentsline {subsubsection}{Audio Data Processing}{13}{}%
 \contentsline {subsubsection}{Visual Data Analysis}{14}{}%
 \contentsline {subsubsection}{Linguistic and Discourse Analysis}{15}{}%
 \contentsline {subsubsection}{Student Feedback Processing}{15}{}%
 \contentsline {subsection}{\numberline {5.5}System architecture}{15}{}%
 \contentsline {subsubsection}{Video Stream pipeline}{15}{}%
 \contentsline {subsubsection}{Audio Stream pipeline}{16}{}%
-\contentsline {subsubsection}{Text Stream pipeline}{17}{}%
+\contentsline {subsubsection}{Text Stream pipeline}{16}{}%
 \contentsline {subsubsection}{Multimodal Fusion and Classification}{17}{}%
-\contentsline {subsubsection}{System Output and Classification}{19}{}%
+\contentsline {subsubsection}{System Output and Classification}{17}{}%
 \contentsline {subsection}{\numberline {5.6}Evaluation Metrics}{19}{}%
-\contentsline {subsection}{\numberline {5.7}Ethical Considerations}{20}{}%
+\contentsline {subsection}{\numberline {5.7}Ethical Considerations}{19}{}%
 \contentsline {chapter}{\numberline {6}Experimental Setup}{21}{}%
 \contentsline {subsection}{\numberline {6.1}Classroom Environment}{21}{}%
 \contentsline {subsection}{\numberline {6.2}Hardware and Software}{21}{}%

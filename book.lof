@@ -9,10 +9,10 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces High-level architecture of the proposed multimodal teacher evaluation system. }}{16}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Comprehensive Performance Comparison Table showing accuracy, precision, recall, F1-score, cross-validation means and standard deviations across all modality combinations and algorithms.}}{24}{}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Performance comparison across all modalities and algorithms. The combined multimodal approach consistently outperforms individual modalities across all evaluation metrics (accuracy, precision, recall, and F1-score).}}{26}{}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Cross-validation accuracy results with error bars showing standard deviation. The multimodal approach demonstrates superior performance stability across both algorithms with reduced variance.}}{27}{}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Relationship between feature count and model performance. The multimodal approach (43 features) demonstrates optimal performance gains, suggesting effective feature complementarity rather than mere feature accumulation.}}{28}{}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces ROC curves comparing discrimination capability across modalities. The multimodal approach achieves the highest AUC values (0.796 for Logistic Regression, 0.789 for SVM), demonstrating superior classification performance.}}{29}{}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Confusion matrices for all model-modality combinations. The multimodal approaches show improved balance between precision and recall, with reduced false negative rates critical for pedagogical assessment applications.}}{30}{}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Comprehensive Performance Comparison Table}}{24}{}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Performance comparison across all modalities and algorithms.}}{26}{}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Cross-validation accuracy results}}{27}{}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Feature count vs. model performance showing multimodal synergy beyond simple feature accumulation.}}{28}{}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces ROC curves comparing discrimination capability across modalities.}}{29}{}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Confusion matrices for all model-modality combinations.}}{30}{}%
 \addvspace {10\p@ }

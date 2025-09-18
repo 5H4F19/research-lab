@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  18 SEP 2025 04:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.19)  18 SEP 2025 12:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -738,23 +738,27 @@ Package pdftex.def Info: sections/logo.jpg  used on input line 9.
 
 [2]) (./sections/acknowledgments.tex
 
-[3]) (./sections/abstract.tex
+[3]) (./sections/dedication.tex
 
-[4])
+[4]
 
-[5]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 194.
+[5]) (./sections/abstract.tex)
+
+[6
+
+]
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 195.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 194.
+(Font)              scaled to size 22.39185pt on input line 195.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 194.
+(Font)              scaled to size 22.39185pt on input line 195.
  (./book.toc
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 1.
@@ -796,37 +800,34 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 
-[6])
+[7])
 \tf@toc=\write4
 \openout4 = `book.toc'.
 
 
 
-[7] (./book.lof)
+[8] (./book.lof)
 \tf@lof=\write5
 \openout5 = `book.lof'.
 
 
 
-[8] (./book.lot)
+[9] (./book.lot)
 \tf@lot=\write6
 \openout6 = `book.lot'.
 
 
 
-[9]
-
-[10
-
-]
+[10]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 216.
+(Font)              scaled to size 15.55188pt on input line 217.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 216.
+(Font)              scaled to size 15.55188pt on input line 217.
 (./sections/introduction.tex
 
 [1
+
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 14.
@@ -835,9 +836,9 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 218.
+(Font)              scaled to size 8.99994pt on input line 219.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 218.
+(Font)              scaled to size 8.99994pt on input line 219.
 [2]
 
 [3]
@@ -892,10 +893,6 @@ Chapter 5.
 LaTeX Warning: Float too large for page by 4.8424pt on input line 165.
 
 
-
-[17]
-
-[18]
 Underfull \hbox (badness 2197) in paragraph at lines 185--186
 []|\T1/ptm/m/n/10.95 (+20) Meets ex-pec-ta-tions in most ar-eas; some
  []
@@ -905,7 +902,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\T1/ptm/m/n/10.95 (+20) Needs Im-
  []
 
-)
+
+
+[17]
+
+[18])
 
 [19])
 
@@ -920,25 +921,22 @@ Chapter 6.
 [22]
 Chapter 7.
 (./sections/results_and_discussions.tex
+<sections/performance_table.jpeg, id=114, 1089.8316pt x 244.0317pt>
+File: sections/performance_table.jpeg Graphic file (type jpg)
+<use sections/performance_table.jpeg>
+Package pdftex.def Info: sections/performance_table.jpeg  used on input line 13.
+(pdftex.def)             Requested size: 415.5525pt x 93.04951pt.
+
 
 [23
 
 ]
 
-LaTeX Warning: Reference `tab:performance_table' on page 24 undefined on input line 11.
-
-<sections/performance_table.jpg, id=117, 1089.8316pt x 491.6769pt>
-File: sections/performance_table.jpg Graphic file (type jpg)
-<use sections/performance_table.jpg>
-Package pdftex.def Info: sections/performance_table.jpg  used on input line 16.
-(pdftex.def)             Requested size: 373.9947pt x 168.72842pt.
-
-
-[24 <./sections/performance_table.jpg>]
+[24 <./sections/performance_table.jpeg>]
 <sections/performance_comparison.jpg, id=121, 1076.3412pt x 858.5676pt>
 File: sections/performance_comparison.jpg Graphic file (type jpg)
 <use sections/performance_comparison.jpg>
-Package pdftex.def Info: sections/performance_comparison.jpg  used on input line 49.
+Package pdftex.def Info: sections/performance_comparison.jpg  used on input line 47.
 (pdftex.def)             Requested size: 415.5525pt x 331.47314pt.
 
 
@@ -948,12 +946,12 @@ Package pdftex.def Info: sections/performance_comparison.jpg  used on input line
 <sections/cross_validation_comparison.jpg, id=128, 1076.3412pt x 425.6703pt>
 File: sections/cross_validation_comparison.jpg Graphic file (type jpg)
 <use sections/cross_validation_comparison.jpg>
-Package pdftex.def Info: sections/cross_validation_comparison.jpg  used on input line 67.
+Package pdftex.def Info: sections/cross_validation_comparison.jpg  used on input line 65.
 (pdftex.def)             Requested size: 415.5525pt x 164.34148pt.
 <sections/feature_count_vs_performance.jpg, id=129, 1076.3412pt x 858.5676pt>
 File: sections/feature_count_vs_performance.jpg Graphic file (type jpg)
 <use sections/feature_count_vs_performance.jpg>
-Package pdftex.def Info: sections/feature_count_vs_performance.jpg  used on input line 78.
+Package pdftex.def Info: sections/feature_count_vs_performance.jpg  used on input line 76.
 (pdftex.def)             Requested size: 415.5525pt x 331.47314pt.
 
 
@@ -961,7 +959,7 @@ Package pdftex.def Info: sections/feature_count_vs_performance.jpg  used on inpu
 <sections/roc_curves.jpg, id=134, 1076.3412pt x 425.1885pt>
 File: sections/roc_curves.jpg Graphic file (type jpg)
 <use sections/roc_curves.jpg>
-Package pdftex.def Info: sections/roc_curves.jpg  used on input line 89.
+Package pdftex.def Info: sections/roc_curves.jpg  used on input line 87.
 (pdftex.def)             Requested size: 415.5525pt x 164.15546pt.
 
 
@@ -969,7 +967,7 @@ Package pdftex.def Info: sections/roc_curves.jpg  used on input line 89.
 <sections/confusion_matrices.jpg, id=138, 1428.7779pt x 714.2685pt>
 File: sections/confusion_matrices.jpg Graphic file (type jpg)
 <use sections/confusion_matrices.jpg>
-Package pdftex.def Info: sections/confusion_matrices.jpg  used on input line 106.
+Package pdftex.def Info: sections/confusion_matrices.jpg  used on input line 103.
 (pdftex.def)             Requested size: 415.5525pt x 207.74289pt.
 
 
@@ -1005,24 +1003,20 @@ Chapter 8.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
  24455 strings out of 473190
- 507081 string characters out of 5715800
- 926267 words of memory out of 5000000
- 46847 multiletter control sequences out of 15000+600000
- 644216 words of font info for 349 fonts, out of 8000000 for 9000
+ 507207 string characters out of 5715800
+ 927268 words of memory out of 5000000
+ 46851 multiletter control sequences out of 15000+600000
+ 646826 words of font info for 344 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,13n,107p,1646b,1030s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,13n,107p,1677b,1030s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on book.pdf (49 pages, 3454483 bytes).
+Output written on book.pdf (49 pages, 3500959 bytes).
 PDF statistics:
  205 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 99888 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 103984 words of extra memory for PDF output out of 106986 (max. 10000000)
 
